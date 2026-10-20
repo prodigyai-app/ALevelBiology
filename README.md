@@ -2,7 +2,7 @@
 
 OCR Biology A H420. 57 revision lessons across all six modules, practical and statistical skills, and three full practice papers (100/135 min, 100/135 min, 70/90 min).
 
-Live site: https://prodigyai-app.github.io/ALevelBiology/
+Live site: https://biologyalevel.prodigyai.uk/
 
 ## Edit and check
 
