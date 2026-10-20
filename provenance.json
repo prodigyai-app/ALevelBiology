@@ -1,0 +1,25 @@
+{
+  "framework": {
+    "repository": "prodigyai-app/GCSEChemistry",
+    "source_sha256": "c3e146e562e2ec3e6c709ef23d4319b3139eb4b30b3f981588c61efe39ff5c9f"
+  },
+  "reused_lessons": [],
+  "sources": [
+    {
+      "title": "OCR Biology A H420 qualification and current specification",
+      "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/biology-a-h020-h420-from-2015/"
+    },
+    {
+      "title": "OCR H420 specification, version 4.1 (April 2026)",
+      "url": "https://www.ocr.org.uk/Images/687834-download-a-level-specification.pdf"
+    },
+    {
+      "title": "OCR H420 assessment structure",
+      "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/biology-a-h020-h420-from-2015/specification-at-a-glance/"
+    },
+    {
+      "title": "OCR practical activities support guide",
+      "url": "https://www.ocr.org.uk/Images/597719-practical-activities-support-guide.pdf"
+    }
+  ]
+}

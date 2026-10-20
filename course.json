@@ -1,0 +1,3849 @@
+{
+  "units": [
+    {
+      "id": "m1",
+      "title": "Practical skills and biological mathematics",
+      "subtitle": "Module 1 · Investigations, evidence and statistics",
+      "paper": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Foundations in biology",
+      "subtitle": "Module 2 · Cells, molecules and division",
+      "paper": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Exchange and transport",
+      "subtitle": "Module 3 · Exchange surfaces and transport systems",
+      "paper": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Biodiversity, evolution and disease",
+      "subtitle": "Module 4 · Immunity, diversity and selection",
+      "paper": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Communication, homeostasis and energy",
+      "subtitle": "Module 5 · Coordination, photosynthesis and respiration",
+      "paper": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "Genetics, evolution and ecosystems",
+      "subtitle": "Module 6 · Genomes, biotechnology and sustainability",
+      "paper": [
+        2,
+        3
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "planning",
+      "unit": "m1",
+      "title": "Design a valid investigation",
+      "spec": "1.1.1; 1.1.2",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Turn a biological question into a controlled, repeatable method.",
+      "notes": [
+        {
+          "title": "From question to method",
+          "html": "<p>State a testable hypothesis with a biological mechanism, then identify an independent variable and a measurable dependent variable. Use a pilot study to choose a useful range. Control factors such as organism age, pH, temperature and sample area. A control treatment provides a baseline; a controlled variable is a factor kept constant. These are different ideas.</p>"
+        },
+        {
+          "title": "Sampling and evidence",
+          "html": "<p>Independent biological replicates sample natural variation; repeat readings of one specimen assess measurement variation. Random allocation reduces allocation bias. A large sample improves precision but cannot rescue a biased method. Specify equipment, concentrations, timing and endpoint so another investigator can repeat the method. Evaluate the hypothesis using the data rather than claiming it has been proved.</p>"
+        }
+      ],
+      "keypoints": [
+        "Identify variables and explain how controls are maintained.",
+        "Separate biological replicates from repeated instrument readings.",
+        "Use random allocation and an appropriate sample size."
+      ],
+      "mistakes": [
+        "Repeated biased sampling remains biased.",
+        "A control group is different from a controlled variable."
+      ],
+      "checks": [
+        {
+          "q": "Why randomly allocate seedlings to treatments?",
+          "opts": [
+            "To remove all variation",
+            "To reduce allocation bias",
+            "To guarantee significance"
+          ],
+          "a": 1,
+          "why": "Random allocation distributes pre-existing differences without systematic treatment bias."
+        },
+        {
+          "q": "Which samples biological variation?",
+          "opts": [
+            "Reading one leaf three times",
+            "Sampling leaves from three independent plants",
+            "Rounding one result three ways"
+          ],
+          "a": 1,
+          "why": "Independent plants provide biological replicates."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Give four features of a valid comparison of amylase activity at different pH values.",
+          "m": 4,
+          "ms": [
+            "Use buffers to maintain each pH.",
+            "Maintain the same temperature using a water bath.",
+            "Use the same initial enzyme and substrate concentrations and volumes.",
+            "Repeat independently and compare a consistent initial-rate measure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "measurement",
+      "unit": "m1",
+      "title": "Measurements, uncertainty and graphs",
+      "spec": "1.1.2; 1.1.3; mathematical skills",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Choose instruments and justify the precision of processed data.",
+      "notes": [
+        {
+          "title": "Instrument quality",
+          "html": "<p>Resolution is the smallest displayed change. Accuracy concerns closeness to a reference value; precision concerns the spread of repeat measurements. A zero error can shift every reading, so repeats do not eliminate it. Calibrate equipment, check blanks and choose an appropriate range. Report the uncertainty convention supplied for the instrument rather than assuming all digital measurements have identical uncertainty.</p>"
+        },
+        {
+          "title": "Processing and plotting",
+          "html": "<p>Percentage uncertainty = absolute uncertainty / measured value × 100. In a simple worst-case estimate, add absolute uncertainties for differences and percentage uncertainties for multiplication or division. Biological variation is additional to instrument uncertainty. Plot continuous explanatory variables on the horizontal axis, label units and use sensible scales. Gradient = change in y / change in x; an initial rate is a tangent near time zero.</p>"
+        }
+      ],
+      "keypoints": [
+        "Convert units before calculating ratios.",
+        "A larger measured change reduces relative uncertainty for fixed absolute uncertainty.",
+        "Label graph axes and table headings with units."
+      ],
+      "mistakes": [
+        "Extra decimal places do not establish accuracy.",
+        "An endpoint reading is not automatically an initial rate."
+      ],
+      "checks": [
+        {
+          "q": "A mass change is 2.0 g with uncertainty 0.1 g. Calculate percentage uncertainty.",
+          "a": 5,
+          "unit": "%",
+          "why": "0.1 / 2.0 × 100 = 5%.",
+          "tol": 0.01
+        },
+        {
+          "q": "A line rises from 2 to 8 cm³ in 3 minutes. Calculate the gradient.",
+          "a": 2,
+          "unit": "cm³ min⁻¹",
+          "why": "(8 − 2) / 3 = 2.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain the benefits of a colorimeter blank and independent repeats.",
+          "m": 3,
+          "ms": [
+            "A blank corrects the baseline contribution of the solvent and container.",
+            "Independent repeats reveal variation in the procedure or organisms.",
+            "Repeats allow calculation of a mean and a measure of spread."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "descriptive-statistics",
+      "unit": "m1",
+      "title": "Means, standard deviation and standard error",
+      "spec": "1.1.3; mathematical skills",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Separate variation among organisms from precision of an estimated mean.",
+      "notes": [
+        {
+          "title": "Describing observations",
+          "html": "<p>Mean = Σx / n. The median is the middle ordered observation and is less influenced by extreme values. Sample standard deviation s = √[Σ(x − x̄)² / (n − 1)] describes dispersion around the mean, in the original measurement units. For a normal population, roughly 68% of observations lie within one population standard deviation of the mean. Check the distribution before assuming normality.</p>"
+        },
+        {
+          "title": "Precision of a mean",
+          "html": "<p>Standard error = s / √n for independent observations. It describes precision of the estimated mean, not diversity among individuals. A larger sample generally reduces SE without necessarily reducing SD. State whether error bars show range, SD, SE or a confidence interval. Overlap of unspecified error bars alone does not establish whether a difference is statistically significant.</p>"
+        }
+      ],
+      "keypoints": [
+        "SD describes spread; SE describes precision of a mean.",
+        "Use independent observations.",
+        "Always identify the kind of error bars."
+      ],
+      "mistakes": [
+        "SD is not simply the range.",
+        "Small SE does not remove sampling bias."
+      ],
+      "checks": [
+        {
+          "q": "SD is 6 mm and n = 9. Calculate SE.",
+          "a": 2,
+          "unit": "mm",
+          "why": "6 / √9 = 2 mm.",
+          "tol": 0.01
+        },
+        {
+          "q": "If n rises fourfold while SD is unchanged, SE usually…",
+          "opts": [
+            "Doubles",
+            "Halves",
+            "Stays unchanged"
+          ],
+          "a": 1,
+          "why": "The square root of n doubles."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Two samples have equal means but SD values of 2 mm and 8 mm. Interpret this and explain why sample size is needed.",
+          "m": 3,
+          "ms": [
+            "The sample with SD 8 mm has more spread among individual observations.",
+            "Equal means do not imply equal distributions.",
+            "Sample size is needed to calculate SE or carry out an appropriate inferential test."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statistical-tests",
+      "unit": "m1",
+      "title": "t tests, chi-squared and Spearman rank",
+      "spec": "1.1.3; 4.2.2; 6.1.2; mathematical skills",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Choose a test that matches the data and interpret its evidence.",
+      "notes": [
+        {
+          "title": "Differences and frequencies",
+          "html": "<p>An unpaired t test compares two independent sample means when the assumptions of the chosen version are appropriate; paired observations require a paired method. A chi-squared goodness-of-fit test compares independent category counts with expected counts: χ² = Σ[(O − E)² / E]. Categories should be exclusive and expected frequencies sufficiently large, normally at least five. With k fixed categories and no estimated parameters, degrees of freedom = k − 1.</p>"
+        },
+        {
+          "title": "Association and significance",
+          "html": "<p>Spearman rank tests monotonic association between paired observations. Without ties, rₛ = 1 − 6Σd² / [n(n² − 1)]; ties require averaged ranks and a tie-aware calculation. State a null hypothesis before testing. At p below a prespecified 0.05 threshold, reject it under the assumptions. This is not a 95% probability that the alternative is true. Failure to reject is not proof of the null, and correlation does not establish causation.</p>"
+        },
+        {
+          "title": "Working with a supplied t-test formula",
+          "html": "<p>For a common two-independent-sample approximation, t = |x̄₁ − x̄₂| / √(s₁²/n₁ + s₂²/n₂). Use the supplied formula and its matching degrees-of-freedom rule rather than mixing variants: a pooled equal-variance t test uses a pooled variance and n₁ + n₂ − 2 degrees of freedom, while Welch’s method uses a different degrees-of-freedom estimate. A paired test instead analyses within-pair differences. Calculate the statistic with unrounded intermediate values, then compare against the appropriate critical value for the stated one- or two-tailed test.</p>"
+        }
+      ],
+      "keypoints": [
+        "Use counts rather than percentages in chi-squared.",
+        "Distinguish paired from independent samples.",
+        "State a biological conclusion at the chosen significance level."
+      ],
+      "mistakes": [
+        "A significant correlation need not be causal.",
+        "Do not use the simple no-ties formula unchanged with tied ranks."
+      ],
+      "checks": [
+        {
+          "q": "Which test compares offspring counts with a predicted 3:1 ratio?",
+          "opts": [
+            "Unpaired t test",
+            "Chi-squared goodness-of-fit",
+            "Mean only"
+          ],
+          "a": 1,
+          "why": "These are categorical frequencies compared with expected counts."
+        },
+        {
+          "q": "Observed counts are 30 and 10; expected counts are 20 and 20. Calculate χ².",
+          "a": 10,
+          "unit": "",
+          "why": "100/20 + 100/20 = 10.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "A suitable t test gives p = 0.02 at a prespecified 5% significance level. Interpret the evidence.",
+          "m": 3,
+          "ms": [
+            "Reject the null hypothesis of no population mean difference at the 5% level.",
+            "The result provides evidence of a population mean difference under the test assumptions.",
+            "It does not by itself establish causation or remove confounding."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practical-endorsement",
+      "unit": "m1",
+      "title": "PAGs, research and the Practical Endorsement",
+      "spec": "1.2.1; 1.2.2; Practical Endorsement",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Understand the practical skills and their separate assessment.",
+      "notes": [
+        {
+          "title": "The twelve practical groups",
+          "html": "<p>OCR groups practical opportunities into microscopy; dissection; sampling; enzyme rates; colorimetry or potometry; chromatography or electrophoresis; microbiology; membrane transport; qualitative tests; logging or modelling; organism responses; and research. Suggested activities are routes to skills rather than twelve unique recipes everyone must reproduce. Suitable alternative activities can be mapped by a centre to the required apparatus, techniques and criteria.</p>"
+        },
+        {
+          "title": "Evidence of competence",
+          "html": "<p>The endorsement is reported separately as Pass or Not Classified. A Pass requires demonstrated competence against the Common Practical Assessment Criteria through at least twelve assessed activities covering the required skills and techniques. Written papers also assess practical understanding. Online revision does not award the endorsement. Keep contemporaneous raw data, methods and references, and distinguish external evidence from your own findings. Consider welfare, environmental disturbance, safe disposal and sample sourcing.</p>"
+        }
+      ],
+      "keypoints": [
+        "PAG 12 develops research and referencing.",
+        "Observed practical work and records establish competence.",
+        "Models should be compared with real evidence."
+      ],
+      "mistakes": [
+        "An examination grade does not automatically award the endorsement.",
+        "A simulation does not replace supervised demonstration of practical skills."
+      ],
+      "checks": [
+        {
+          "q": "Which alone awards the Practical Endorsement?",
+          "opts": [
+            "Completing this site",
+            "Passing a quiz",
+            "Neither"
+          ],
+          "a": 2,
+          "why": "The centre assesses demonstrated practical competence."
+        },
+        {
+          "q": "Why record author, source URL and access date?",
+          "opts": [
+            "To make evidence traceable",
+            "To guarantee correctness",
+            "To replace raw data"
+          ],
+          "a": 0,
+          "why": "References allow readers to inspect the evidence."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain a benefit and two limitations of using only a computer model to infer a population trend.",
+          "m": 3,
+          "ms": [
+            "A model allows assumptions and variables to be explored systematically.",
+            "Predictions depend on the assumptions and parameters selected.",
+            "Independent field data are needed to test whether predictions describe the real population."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microscopy",
+      "unit": "m2",
+      "title": "Microscopy, resolution and scale",
+      "spec": "2.1.1",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Measure cells and interpret microscope images.",
+      "notes": [
+        {
+          "title": "Images and resolution",
+          "html": "<p>Magnification = image size / actual size, using the same units. Resolution is the ability to distinguish adjacent points. Greater magnification without greater resolution gives a bigger blurred image. Light microscopy can examine living specimens; TEM reveals internal ultrastructure in thin sections, while SEM shows surface detail. Electron-microscope preparation prevents direct observation of living cells.</p>"
+        },
+        {
+          "title": "Calibrating and drawing",
+          "html": "<p>Calibrate an eyepiece graticule against a stage micrometer at each objective setting. If ten divisions match 25 µm, one division represents 2.5 µm at that setting. Draw clear continuous lines, avoid shading, label observed structures and add a scale bar. A scale bar remains valid if resized with the image; a printed magnification may become incorrect.</p>"
+        }
+      ],
+      "keypoints": [
+        "1 mm = 1000 µm; 1 µm = 1000 nm.",
+        "Recalibrate when the objective changes.",
+        "Identify visible evidence before naming an organelle."
+      ],
+      "mistakes": [
+        "Magnification is different from resolution.",
+        "False-coloured micrographs do not show natural colours."
+      ],
+      "checks": [
+        {
+          "q": "A 50 µm cell appears 20 mm long. Calculate magnification.",
+          "a": 400,
+          "unit": "×",
+          "why": "20 mm = 20 000 µm; 20 000 / 50 = 400.",
+          "tol": 0.01
+        },
+        {
+          "q": "Which best reveals mitochondrial cristae?",
+          "opts": [
+            "TEM",
+            "Unaided vision",
+            "SEM surface view only"
+          ],
+          "a": 0,
+          "why": "TEM resolves internal membranes in a thin section."
+        }
+      ],
+      "exam": [
+        {
+          "q": "A 5 µm scale bar measures 20 mm. A chloroplast in the same image measures 32 mm. Calculate its actual length.",
+          "m": 2,
+          "ms": [
+            "Use the ratio 32 / 20 × 5.",
+            "The actual length is 8 µm."
+          ]
+        }
+      ],
+      "sim": "magnification",
+      "practical": {
+        "title": "PAG 1 · Calibrated microscopy",
+        "method": [
+          "Focus at low power before using high power.",
+          "Align eyepiece and stage micrometer scales and calculate µm per division.",
+          "Replace the micrometer with the specimen and measure several cells.",
+          "Record labelled drawings and individual measurements."
+        ],
+        "variables": [
+          "Keep the objective fixed for each calibration.",
+          "Sample multiple fields of view."
+        ],
+        "safety": [
+          "Handle glass carefully and use teacher-approved stains."
+        ],
+        "analysis": "Calculate a mean and spread, reporting calibration and sample size."
+      }
+    },
+    {
+      "id": "cell-ultrastructure",
+      "unit": "m2",
+      "title": "Eukaryotic and prokaryotic ultrastructure",
+      "spec": "2.1.1",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Link organelles and specialised functions.",
+      "notes": [
+        {
+          "title": "Compartments and protein traffic",
+          "html": "<p>The nucleus contains chromosomes and a nucleolus involved in ribosome assembly. Ribosomes on rough ER synthesise proteins entering the secretory pathway. Vesicles carry these to the Golgi for modification and sorting. Lysosomes contain hydrolytic enzymes. Mitochondrial cristae provide membrane for oxidative phosphorylation; chloroplast thylakoids support light-dependent reactions. Cytoskeletal microtubules help organise organelles, cilia and chromosome movement.</p>"
+        },
+        {
+          "title": "Comparing cell types",
+          "html": "<p>Plant cells have cellulose walls and usually a large permanent vacuole; photosynthetic cells contain chloroplasts. Bacteria lack a nucleus and membrane-bound organelles but possess circular DNA, 70S ribosomes and often plasmids. Their cell wall contains peptidoglycan. Eukaryotic cytosolic ribosomes are 80S. Viruses are acellular particles containing nucleic acid within a capsid, sometimes with an envelope; they depend on host machinery for reproduction.</p>"
+        }
+      ],
+      "keypoints": [
+        "Rough ER, vesicles and Golgi form a trafficking pathway.",
+        "Bacteria contain DNA and ribosomes.",
+        "Link each structure to its function."
+      ],
+      "mistakes": [
+        "Not every plant cell has chloroplasts.",
+        "Viruses are not prokaryotic cells."
+      ],
+      "checks": [
+        {
+          "q": "Which modifies and sorts secreted proteins?",
+          "opts": [
+            "Golgi apparatus",
+            "Nucleolus",
+            "Cell wall"
+          ],
+          "a": 0,
+          "why": "The Golgi receives and processes proteins from the ER."
+        },
+        {
+          "q": "Which distinguishes bacterial from animal cytosol?",
+          "opts": [
+            "Presence of DNA",
+            "70S instead of 80S ribosomes",
+            "Presence of a membrane"
+          ],
+          "a": 1,
+          "why": "Both cell types contain DNA and a membrane."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three adaptations of a cell secreting many protein enzymes.",
+          "m": 3,
+          "ms": [
+            "Extensive rough ER and ribosomes synthesise protein.",
+            "A large Golgi apparatus modifies and packages enzymes into vesicles.",
+            "Many mitochondria provide ATP for synthesis and transport."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carbohydrates",
+      "unit": "m2",
+      "title": "Carbohydrates and qualitative tests",
+      "spec": "2.1.2",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Relate glycosidic bonds and branching to function.",
+      "notes": [
+        {
+          "title": "Monomers and polymers",
+          "html": "<p>Glucose is a hexose monosaccharide. Condensation forms glycosidic bonds and releases water; hydrolysis uses water to break them. Maltose contains two glucose residues, sucrose glucose and fructose, and lactose glucose and galactose. Amylose is an unbranched α-glucose chain that coils; amylopectin has α-1,6 branch points as well as α-1,4 links. Glycogen is more highly branched, providing many ends for rapid glucose release.</p>"
+        },
+        {
+          "title": "Storage, structure and tests",
+          "html": "<p>Starch and glycogen are relatively insoluble, giving less osmotic effect than equivalent numbers of free glucose molecules. Cellulose contains β-glucose with alternate residues inverted; straight chains hydrogen-bond into strong microfibrils. Heated Benedict’s reagent tests reducing sugars; iodine gives blue-black with starch. To test for non-reducing sugar, first establish the reducing-sugar result, then hydrolyse another aliquot with dilute acid, neutralise and repeat Benedict’s testing.</p>"
+        }
+      ],
+      "keypoints": [
+        "Condensation releases water; hydrolysis uses it.",
+        "Branching provides accessible chain ends.",
+        "Cellulose microfibrils provide tensile strength."
+      ],
+      "mistakes": [
+        "Hydrogen bonds join cellulose chains; glycosidic bonds join residues within a chain.",
+        "A negative reducing-sugar test does not rule out every carbohydrate."
+      ],
+      "checks": [
+        {
+          "q": "Cellulose is made from…",
+          "opts": [
+            "α-glucose",
+            "β-glucose",
+            "Amino acids"
+          ],
+          "a": 1,
+          "why": "β-glucose forms straight β-1,4-linked chains."
+        },
+        {
+          "q": "Why neutralise after acid hydrolysis before Benedict’s testing?",
+          "opts": [
+            "The reagent needs alkaline conditions",
+            "To destroy the sugar",
+            "To make starch"
+          ],
+          "a": 0,
+          "why": "Residual acid interferes with the alkaline test."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why glycogen is a suitable carbohydrate store.",
+          "m": 3,
+          "ms": [
+            "It is relatively insoluble and has little osmotic effect compared with free glucose.",
+            "Its compact polymer structure stores many glucose residues.",
+            "Many branch ends allow rapid hydrolysis and glucose release."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "PAG 9 · Carbohydrate tests",
+        "method": [
+          "Use separate labelled aliquots for iodine and Benedict’s tests.",
+          "Heat Benedict’s samples in a water bath alongside positive and negative controls.",
+          "For non-reducing sugars hydrolyse another aliquot, cool, neutralise and retest."
+        ],
+        "variables": [
+          "Keep volumes and heating time constant.",
+          "Use a standard series for semi-quantitative comparison."
+        ],
+        "safety": [
+          "Wear eye protection and handle hot tubes with holders."
+        ],
+        "analysis": "Record observed colours before assigning a chemical interpretation."
+      }
+    },
+    {
+      "id": "lipids-water",
+      "unit": "m2",
+      "title": "Lipids, water and inorganic ions",
+      "spec": "2.1.2",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Explain biological roles through polarity and bonding.",
+      "notes": [
+        {
+          "title": "Triglycerides and phospholipids",
+          "html": "<p>Condensation between glycerol and three fatty acids creates three ester bonds in a triglyceride. Saturated fatty acids lack carbon–carbon double bonds; cis-unsaturated chains bend at double bonds, reducing close packing. Triglycerides are hydrophobic, energy-dense stores and provide insulation. Phospholipids have a hydrophilic phosphate-containing head and two hydrophobic fatty acid tails, enabling bilayers to form in water.</p>"
+        },
+        {
+          "title": "Water and ions",
+          "html": "<p>Water is polar and forms hydrogen bonds, producing cohesion, high specific heat capacity and high latent heat of vaporisation. These support transport, thermal stability and evaporative cooling. Water dissolves many ions and polar molecules and participates in hydrolysis. Nitrate supplies nitrogen for amino acids, magnesium forms part of chlorophyll, calcium supports signalling and sodium contributes to membrane potentials. The ethanol emulsion test produces a cloudy suspension when lipid is present after water is added.</p>"
+        }
+      ],
+      "keypoints": [
+        "Triglycerides contain ester bonds.",
+        "Water polarity explains its solvent properties.",
+        "Name an ion and its specific biological role."
+      ],
+      "mistakes": [
+        "Hydrogen bonds are between water molecules; covalent bonds hold each molecule together.",
+        "Lipids are not repeating-monomer polymers."
+      ],
+      "checks": [
+        {
+          "q": "Which bonds link glycerol and fatty acids?",
+          "opts": [
+            "Peptide",
+            "Ester",
+            "Glycosidic"
+          ],
+          "a": 1,
+          "why": "Three ester bonds form in a triglyceride."
+        },
+        {
+          "q": "Which water property limits rapid temperature change?",
+          "opts": [
+            "High specific heat capacity",
+            "Low heat capacity",
+            "Insolubility in ions"
+          ],
+          "a": 0,
+          "why": "A large energy transfer is required for a given temperature change."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why phospholipids form a bilayer in water.",
+          "m": 3,
+          "ms": [
+            "Hydrophilic heads interact with water.",
+            "Hydrophobic tails face away from water.",
+            "Two layers arrange with tails inward and heads facing aqueous fluid on both sides."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proteins",
+      "unit": "m2",
+      "title": "Protein structure and biological function",
+      "spec": "2.1.2",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Trace sequence through folding to protein function.",
+      "notes": [
+        {
+          "title": "Levels of structure",
+          "html": "<p>Amino acids contain amino and carboxyl groups and a variable R group. Peptide bonds form by condensation. Primary structure is the amino acid sequence. Secondary α-helices and β-sheets are stabilised by hydrogen bonds involving the backbone. Tertiary folding involves R-group interactions including hydrogen bonds, ionic bonds, disulfide bridges and hydrophobic interactions. Quaternary structure is the association of several polypeptide chains.</p>"
+        },
+        {
+          "title": "Shape and function",
+          "html": "<p>Globular enzymes have specific active-site shapes. Haemoglobin has four polypeptide subunits, each associated with an iron-containing haem prosthetic group. Fibrous collagen has three chains wound together and crosslinks that strengthen fibres. Biuret reagent turns lilac/purple when peptide bonds are present. Denaturation disrupts higher-order structure and function without normally hydrolysing the primary peptide sequence.</p>"
+        }
+      ],
+      "keypoints": [
+        "Sequence determines possible folding.",
+        "A haem group is a prosthetic group.",
+        "Structure explains the strength of collagen."
+      ],
+      "mistakes": [
+        "Not every protein has quaternary structure.",
+        "Denaturation is different from complete peptide hydrolysis."
+      ],
+      "checks": [
+        {
+          "q": "Which bond joins amino acid residues?",
+          "opts": [
+            "Ester",
+            "Peptide",
+            "Glycosidic"
+          ],
+          "a": 1,
+          "why": "A peptide bond forms between amino and carboxyl groups."
+        },
+        {
+          "q": "Which level describes amino acid order?",
+          "opts": [
+            "Primary",
+            "Tertiary",
+            "Quaternary"
+          ],
+          "a": 0,
+          "why": "Primary structure is the sequence."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why replacing one amino acid can alter enzyme activity.",
+          "m": 3,
+          "ms": [
+            "The replacement changes possible R-group interactions.",
+            "This can alter tertiary folding and the active site.",
+            "Substrate binding or catalysis may become less effective."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enzymes",
+      "unit": "m2",
+      "title": "Enzymes, rates and inhibition",
+      "spec": "2.1.4",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Interpret rate curves using active sites and limiting factors.",
+      "notes": [
+        {
+          "title": "Catalysis and saturation",
+          "html": "<p>Enzymes lower activation energy by forming enzyme–substrate complexes; they do not change the overall reaction equilibrium. Induced fit involves shape adjustment as substrate binds. Increasing substrate concentration initially increases successful collisions, but rate plateaus at fixed enzyme concentration when active sites become saturated. Initial rates avoid later substrate depletion and product accumulation. Cofactors and coenzymes help some enzymes; tightly bound helpers can be prosthetic groups.</p>"
+        },
+        {
+          "title": "Conditions and regulation",
+          "html": "<p>Temperature increases kinetic energy until loss of functional structure dominates. Extreme pH changes charges and protein interactions. Competitive inhibitors occupy active sites; more substrate can reduce their relative effect in a simple model. Non-competitive inhibition reduces functional activity through binding elsewhere, so extra substrate cannot restore the original maximum rate. End-product inhibition can regulate a pathway before resources are wasted.</p>"
+        }
+      ],
+      "keypoints": [
+        "A plateau can indicate enzyme saturation.",
+        "Compare initial gradients.",
+        "Distinguish reversible inhibition from irreversible damage."
+      ],
+      "mistakes": [
+        "Low temperature usually slows rather than denatures enzymes.",
+        "Inhibitors do not always permanently destroy enzymes."
+      ],
+      "checks": [
+        {
+          "q": "Why does rate plateau as substrate rises?",
+          "opts": [
+            "Substrate always denatures",
+            "Active sites become saturated",
+            "Temperature reaches zero"
+          ],
+          "a": 1,
+          "why": "Active sites are occupied most of the time."
+        },
+        {
+          "q": "Extra substrate can reduce which effect in a simple model?",
+          "opts": [
+            "Competitive inhibition",
+            "Irreversible destruction",
+            "All non-competitive inhibition"
+          ],
+          "a": 0,
+          "why": "Substrate and inhibitor compete for the same site."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe how to compare amylase initial rates at different substrate concentrations.",
+          "m": 4,
+          "ms": [
+            "Keep enzyme concentration, pH and temperature constant.",
+            "Measure a product or substrate signal frequently after mixing.",
+            "Plot signal against time and calculate initial tangent gradients.",
+            "Repeat independently and compare mean rates and spread."
+          ]
+        }
+      ],
+      "sim": "enzyme",
+      "practical": {
+        "title": "PAG 4 · Enzyme reaction rates",
+        "method": [
+          "Prepare a substrate concentration series with equal final volumes.",
+          "Equilibrate solutions in a water bath.",
+          "Mix and record a suitable signal at short intervals.",
+          "Repeat and obtain initial gradients."
+        ],
+        "variables": [
+          "Control enzyme amount, pH, temperature and mixing."
+        ],
+        "safety": [
+          "Wear eye protection and use prepared enzyme solutions rather than handling powders."
+        ],
+        "analysis": "Plot mean initial rate against substrate concentration and explain any plateau."
+      }
+    },
+    {
+      "id": "dna-structure",
+      "unit": "m2",
+      "title": "Nucleotides, DNA, RNA and ATP",
+      "spec": "2.1.3; 2.1.2",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Compare nucleic acid structure with ATP function.",
+      "notes": [
+        {
+          "title": "Nucleic acids",
+          "html": "<p>A nucleotide contains a pentose sugar, phosphate and base. DNA uses deoxyribose and A, T, C and G; RNA uses ribose and U instead of T. Phosphodiester bonds create the sugar–phosphate backbone. DNA contains antiparallel strands held together by complementary base pairing: A–T has two hydrogen bonds and C–G has three. Base sequence stores information; complementarity permits copying.</p>"
+        },
+        {
+          "title": "Immediate energy transfer",
+          "html": "<p>ATP contains adenine, ribose and three phosphates. Its hydrolysis to ADP and inorganic phosphate can be coupled to energy-requiring processes such as active transport and synthesis. Phosphorylation can make substrates more reactive or change protein activity. Respiration and photosynthesis regenerate ATP. ATP is a rapidly recycled immediate energy intermediate, rather than a large long-term energy store.</p>"
+        }
+      ],
+      "keypoints": [
+        "Backbone bonds are phosphodiester bonds.",
+        "Hydrogen bonds join complementary bases.",
+        "ATP use and regeneration couple cellular reactions."
+      ],
+      "mistakes": [
+        "DNA does not normally contain uracil.",
+        "Breaking a bond alone requires energy; consider the overall hydrolysis reaction."
+      ],
+      "checks": [
+        {
+          "q": "Which DNA base pairs with guanine?",
+          "opts": [
+            "Adenine",
+            "Cytosine",
+            "Uracil"
+          ],
+          "a": 1,
+          "why": "G pairs with C."
+        },
+        {
+          "q": "Double-stranded DNA contains 30% adenine. What percentage is guanine?",
+          "a": 20,
+          "unit": "%",
+          "why": "T is 30%; C plus G is 40%, so G is 20%.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how DNA structure permits accurate copying.",
+          "m": 3,
+          "ms": [
+            "Strands separate when hydrogen bonds between bases are disrupted.",
+            "Each original strand supplies a template.",
+            "Complementary base pairing determines the new strand sequence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "replication-expression",
+      "unit": "m2",
+      "title": "DNA replication and protein synthesis",
+      "spec": "2.1.3",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Follow information from a template to a polypeptide.",
+      "notes": [
+        {
+          "title": "Semi-conservative copying",
+          "html": "<p>Helicase separates DNA strands by disrupting hydrogen bonds. Each original strand acts as a template. Free DNA nucleotides pair complementarily and DNA polymerase forms phosphodiester bonds. Each daughter helix contains one old strand and one new strand. Polymerases extend new DNA in the 5′ to 3′ direction; antiparallel templates require continuous and discontinuous synthesis.</p>"
+        },
+        {
+          "title": "Transcription and translation",
+          "html": "<p>RNA polymerase makes RNA complementary to the template DNA. In eukaryotes introns are removed and exons joined to form mature mRNA. At ribosomes, codons pair with tRNA anticodons; each tRNA carries a specific amino acid. Peptide bonds join amino acids until a stop codon is reached. The code is degenerate: several codons may specify one amino acid, but an individual codon specifies only one amino acid or stop signal.</p>"
+        }
+      ],
+      "keypoints": [
+        "Transcription produces RNA; translation produces polypeptide.",
+        "Template DNA is complementary to mRNA.",
+        "Replication is semi-conservative."
+      ],
+      "mistakes": [
+        "Ribosomes read mRNA rather than the DNA double helix.",
+        "Degeneracy does not mean one codon normally specifies multiple amino acids."
+      ],
+      "checks": [
+        {
+          "q": "Template DNA TAC gives which mRNA codon?",
+          "opts": [
+            "AUG",
+            "ATG",
+            "UAC"
+          ],
+          "a": 0,
+          "why": "RNA uses U rather than T."
+        },
+        {
+          "q": "Which bonds form during translation?",
+          "opts": [
+            "Peptide",
+            "Hydrogen between DNA bases",
+            "Ester"
+          ],
+          "a": 0,
+          "why": "Ribosomes catalyse peptide bond formation."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why a base substitution can leave the polypeptide unchanged.",
+          "m": 2,
+          "ms": [
+            "The code is degenerate.",
+            "The changed codon may specify the same amino acid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "membranes",
+      "unit": "m2",
+      "title": "Membranes, osmosis and active transport",
+      "spec": "2.1.5",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Explain selective movement with the fluid mosaic model.",
+      "notes": [
+        {
+          "title": "A dynamic barrier",
+          "html": "<p>Phospholipids form a fluid bilayer containing proteins. Cholesterol modifies stability and fluidity; glycoproteins and glycolipids support recognition and receptors. Small non-polar molecules can diffuse through the bilayer. Ions and many polar molecules require channels or carriers. Facilitated diffusion is passive movement down a gradient; active transport uses energy to move substances against their gradient.</p>"
+        },
+        {
+          "title": "Water and bulk movement",
+          "html": "<p>Osmosis is net water movement through a partially permeable membrane from higher to lower water potential. More solute makes water potential more negative, other factors constant. Turgor pressure opposes water entry into plant cells; severe water loss can cause plasmolysis. Endocytosis and exocytosis move material in vesicles. Cotransport can exploit an ion gradient established by an ATP-driven pump, even if the coupled carrier does not itself hydrolyse ATP.</p>"
+        }
+      ],
+      "keypoints": [
+        "Specify gradient direction and energy source.",
+        "Water potential predicts net water movement.",
+        "Membrane damage can increase pigment leakage."
+      ],
+      "mistakes": [
+        "Osmosis describes water movement, not solute movement.",
+        "A passive carrier cannot alone move material against its gradient."
+      ],
+      "checks": [
+        {
+          "q": "Movement of ions against a gradient requires…",
+          "opts": [
+            "Simple diffusion",
+            "An energy source",
+            "Osmosis"
+          ],
+          "a": 1,
+          "why": "Transport against an electrochemical gradient requires energy."
+        },
+        {
+          "q": "Water enters when external water potential is…",
+          "opts": [
+            "Higher than internal",
+            "Lower than internal",
+            "Always zero"
+          ],
+          "a": 0,
+          "why": "Net movement is from higher to lower water potential."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why high temperature increases beetroot pigment leakage.",
+          "m": 3,
+          "ms": [
+            "Molecular motion and membrane fluidity increase.",
+            "At sufficiently high temperature membrane proteins and bilayer organisation are disrupted.",
+            "Greater permeability permits more pigment to leave cells."
+          ]
+        }
+      ],
+      "sim": "osmosis",
+      "practical": {
+        "title": "PAG 8 · Osmosis in plant tissue",
+        "method": [
+          "Cut equal-sized tissue cylinders and record initial mass.",
+          "Immerse in known sucrose concentrations for equal times.",
+          "Blot consistently and record final mass.",
+          "Repeat and calculate percentage mass change."
+        ],
+        "variables": [
+          "Control temperature, tissue source, dimensions, time and solution volume."
+        ],
+        "safety": [
+          "Use borers and scalpels with supervision on a suitable cutting surface."
+        ],
+        "analysis": "Plot mean percentage mass change; estimate isotonic concentration at zero change and recognise uncertainty."
+      }
+    },
+    {
+      "id": "cell-cycle",
+      "unit": "m2",
+      "title": "Cell cycle, mitosis and stem cells",
+      "spec": "2.1.6",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Explain genetic continuity and differentiated cells.",
+      "notes": [
+        {
+          "title": "Division and continuity",
+          "html": "<p>Interphase includes growth, DNA replication in S phase and preparation. During prophase chromosomes condense; in metaphase they align at the equator; in anaphase sister chromatids separate; in telophase nuclei form. Cytokinesis divides cytoplasm. Mitosis maintains chromosome number for growth, repair and asexual reproduction. Mitotic index = number of cells in mitosis / total cells counted.</p>"
+        },
+        {
+          "title": "Differentiation",
+          "html": "<p>Cells specialise by expressing different genes, not normally by losing unused genes. Stem cells self-renew and generate differentiated cell types, with varying developmental potency. Tissues combine specialised cells; organs combine tissues. Division requires regulation; uncontrolled division may form tumours. A mitotic index estimates time spent dividing only with appropriate assumptions about a steady-state population.</p>"
+        },
+        {
+          "title": "Examples of specialisation",
+          "html": "<p>Erythrocytes have a biconcave shape, no nucleus at maturity and abundant haemoglobin, supporting gas carriage. Neutrophils have a lobed nucleus and lysosomes for phagocytosis; ciliated epithelial cells move surface mucus. Root-hair cells increase root surface area, guard cells alter stomatal aperture, and palisade cells contain many chloroplasts. A tissue is an organised set of cells with a shared function, while an organ contains several tissues working together.</p>"
+        }
+      ],
+      "keypoints": [
+        "DNA replicates before mitosis.",
+        "Sister chromatids separate in mitosis.",
+        "Differentiation involves gene expression."
+      ],
+      "mistakes": [
+        "Interphase is metabolically active.",
+        "Stem-cell applications need evidence, ethical evaluation and risk assessment."
+      ],
+      "checks": [
+        {
+          "q": "24 of 120 cells are in mitosis. Calculate mitotic index. Give the mitotic index as a decimal.",
+          "a": 0.2,
+          "unit": "",
+          "why": "24 / 120 = 0.20.",
+          "tol": 0.01
+        },
+        {
+          "q": "When do sister chromatids separate?",
+          "opts": [
+            "Anaphase",
+            "S phase",
+            "Metaphase"
+          ],
+          "a": 0,
+          "why": "Anaphase moves chromatids to opposite poles."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why mitotic daughter nuclei normally contain the same genetic information.",
+          "m": 3,
+          "ms": [
+            "Replication forms identical sister chromatids before division.",
+            "The spindle separates sister chromatids into opposite nuclei.",
+            "Each daughter receives one copy of every chromosome."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meiosis",
+      "unit": "m2",
+      "title": "Meiosis and genetic variation",
+      "spec": "2.1.6; 6.1.2",
+      "paper": [
+        1,
+        2,
+        3
+      ],
+      "summary": "Distinguish homologues from sister chromatids.",
+      "notes": [
+        {
+          "title": "Two divisions",
+          "html": "<p>One DNA replication precedes two meiotic divisions. Homologous chromosomes pair in prophase I and crossing over exchanges corresponding DNA. Homologous pairs orient independently at metaphase I and separate in anaphase I. Sister chromatids remain together until meiosis II. Halving chromosome number allows fertilisation to restore diploidy without doubling the number every generation.</p>"
+        },
+        {
+          "title": "Variation",
+          "html": "<p>Crossing over produces new allele combinations along chromosomes; independent assortment produces different combinations of homologues. Random fertilisation adds further combinations. Mutation is the ultimate source of new alleles. Non-disjunction can generate abnormal chromosome numbers. Homologues carry the same gene loci but may carry different alleles, whereas replicated sister chromatids begin as copies.</p>"
+        }
+      ],
+      "keypoints": [
+        "Homologues separate in I; sister chromatids in II.",
+        "Mutation makes new alleles; meiosis rearranges combinations.",
+        "Fertilisation restores diploidy."
+      ],
+      "mistakes": [
+        "There is only one preceding DNA replication.",
+        "Homologous chromosomes need not have identical alleles."
+      ],
+      "checks": [
+        {
+          "q": "What separates in anaphase I?",
+          "opts": [
+            "Homologous chromosomes",
+            "Individual nucleotides",
+            "Sister chromatids in every case"
+          ],
+          "a": 0,
+          "why": "Sister chromatids remain together in division I."
+        },
+        {
+          "q": "A diploid organism has 16 chromosomes. How many are in a normal gamete?",
+          "a": 8,
+          "unit": "",
+          "why": "Meiosis halves the number.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain two meiotic sources of variation.",
+          "m": 3,
+          "ms": [
+            "Crossing over exchanges DNA between non-sister chromatids of homologues.",
+            "This forms new combinations of alleles along a chromosome.",
+            "Independent orientation and segregation produces different combinations of maternal and paternal homologues."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exchange-surfaces",
+      "unit": "m3",
+      "title": "Exchange surfaces and ventilation",
+      "spec": "3.1.1",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Relate surface area, diffusion distance and gradients to gas exchange.",
+      "notes": [
+        {
+          "title": "Diffusion and size",
+          "html": "<p>Diffusion is faster across a larger surface area, a steeper concentration gradient and a shorter diffusion distance. Small organisms can exchange directly across their surface, but surface-area-to-volume ratio falls as size increases. Larger, active organisms need specialised surfaces and transport systems. Alveoli provide a large area, thin epithelial and endothelial barriers, ventilation and blood flow that maintain gradients.</p>"
+        },
+        {
+          "title": "Different solutions",
+          "html": "<p>Fish gill filaments and lamellae provide a large area. Countercurrent water and blood flow maintain an oxygen gradient along the exchange surface. Insects use spiracles, tracheae and fine tracheoles to deliver gases close to tissues; ventilation and tracheolar fluid changes can help active tissues. In mammals, diaphragm contraction and external intercostal contraction increase thoracic volume, reduce alveolar pressure and draw air in.</p>"
+        }
+      ],
+      "keypoints": [
+        "Link each adaptation to a diffusion principle.",
+        "Ventilation moves air; gas exchange is diffusion.",
+        "Countercurrent flow maintains a gradient along gill lamellae."
+      ],
+      "mistakes": [
+        "Blood does not normally deliver most oxygen in insects.",
+        "Air enters because alveolar pressure falls below atmospheric pressure."
+      ],
+      "checks": [
+        {
+          "q": "Which change increases diffusion rate?",
+          "opts": [
+            "Thicker barrier",
+            "Larger exchange area",
+            "Smaller gradient"
+          ],
+          "a": 1,
+          "why": "A larger area allows more particles to cross per unit time."
+        },
+        {
+          "q": "Why is countercurrent flow efficient?",
+          "opts": [
+            "It maintains an oxygen gradient along the lamella",
+            "It stops blood flow",
+            "It makes water fully oxygenated"
+          ],
+          "a": 0,
+          "why": "Blood meets water of higher oxygen concentration along the surface."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three adaptations of alveoli for rapid oxygen uptake.",
+          "m": 3,
+          "ms": [
+            "Many alveoli provide a large total surface area.",
+            "Thin alveolar epithelium and capillary endothelium reduce diffusion distance.",
+            "Ventilation and blood flow maintain a steep oxygen concentration gradient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lung-function",
+      "unit": "m3",
+      "title": "Lung volumes and interpreting spirometry",
+      "spec": "3.1.1",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Extract ventilation measurements and evaluate respiratory traces.",
+      "notes": [
+        {
+          "title": "Volumes and rates",
+          "html": "<p>Tidal volume is the volume exchanged in a normal breath. Vital capacity is the maximum volume exhaled after maximum inhalation; residual volume remains after maximum exhalation. Total lung capacity includes residual volume. Minute ventilation = tidal volume × breathing frequency. Anatomical dead space means not all inspired air reaches gas-exchange surfaces, so minute ventilation is not identical to alveolar ventilation.</p>"
+        },
+        {
+          "title": "Interpreting traces",
+          "html": "<p>A spirometer can record changing lung volume and breathing frequency. In a suitable closed oxygen system with carbon dioxide absorption, the falling baseline can indicate oxygen consumption after appropriate calibration. Compare traces using the same scale and account for body size, exercise and technique. Spirometry involving people requires trained supervision, hygiene and screening; trace interpretation on this site is not a diagnostic test.</p>"
+        }
+      ],
+      "keypoints": [
+        "Identify tidal volume and frequency from axes.",
+        "Convert time and volume units consistently.",
+        "Residual air is not removed by maximum expiration."
+      ],
+      "mistakes": [
+        "Vital capacity is not total lung capacity.",
+        "A changed breathing trace alone cannot diagnose disease."
+      ],
+      "checks": [
+        {
+          "q": "Tidal volume is 0.6 dm³ and frequency is 15 min⁻¹. Calculate minute ventilation.",
+          "a": 9,
+          "unit": "dm³ min⁻¹",
+          "why": "0.6 × 15 = 9.",
+          "tol": 0.01
+        },
+        {
+          "q": "Which volume remains after maximum expiration?",
+          "opts": [
+            "Residual volume",
+            "Tidal volume",
+            "Vital capacity"
+          ],
+          "a": 0,
+          "why": "Residual volume remains in the lungs."
+        }
+      ],
+      "exam": [
+        {
+          "q": "A trace shows 12 breaths in 30 s, each 0.5 dm³. Calculate minute ventilation.",
+          "m": 2,
+          "ms": [
+            "Breathing frequency = 24 breaths per minute.",
+            "Minute ventilation = 24 × 0.5 = 12 dm³ min⁻¹."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heart",
+      "unit": "m3",
+      "title": "Heart structure and the cardiac cycle",
+      "spec": "3.1.2",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain pressure-driven blood flow and coordinated contraction.",
+      "notes": [
+        {
+          "title": "Flow and valves",
+          "html": "<p>Blood follows vena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium → left ventricle → aorta. The left ventricle has a thicker wall to generate systemic pressure. Atrioventricular valves prevent ventricular backflow into atria; semilunar valves prevent arterial backflow. Valves open and close passively because of pressure differences, not by contracting.</p>"
+        },
+        {
+          "title": "Coordination",
+          "html": "<p>The sinoatrial node initiates excitation that spreads over the atria. The atrioventricular node delays transmission, allowing ventricular filling, then excitation passes down the bundle of His and Purkyne tissue. Ventricles contract from the apex upwards. Cardiac output = heart rate × stroke volume. ECG traces show electrical events; the P wave, QRS complex and T wave must be related carefully to, rather than equated with, mechanical contraction.</p>"
+        }
+      ],
+      "keypoints": [
+        "Trace the complete double circulation.",
+        "Valve operation depends on relative pressure.",
+        "The AV-node delay allows ventricular filling."
+      ],
+      "mistakes": [
+        "The pulmonary artery carries deoxygenated blood.",
+        "Valves do not actively pump blood."
+      ],
+      "checks": [
+        {
+          "q": "Heart rate is 75 min⁻¹ and stroke volume 70 cm³. Calculate cardiac output in dm³ min⁻¹.",
+          "a": 5.25,
+          "unit": "dm³ min⁻¹",
+          "why": "75 × 70 = 5250 cm³ min⁻¹ = 5.25 dm³ min⁻¹.",
+          "tol": 0.01
+        },
+        {
+          "q": "What prevents backflow into the left atrium?",
+          "opts": [
+            "Bicuspid/mitral valve",
+            "Aortic semilunar valve",
+            "Vena cava"
+          ],
+          "a": 0,
+          "why": "The left atrioventricular valve closes when ventricular pressure rises."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how excitation normally produces coordinated ventricular contraction.",
+          "m": 3,
+          "ms": [
+            "The AV node delays excitation after atrial excitation.",
+            "The bundle of His conducts excitation towards the apex.",
+            "Purkyne tissue distributes excitation so contraction moves upwards from the apex."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "PAG 2 · Heart dissection",
+        "method": [
+          "Identify the external chambers and major vessels in a responsibly sourced specimen.",
+          "Use a probe to follow vessel openings before cutting.",
+          "Open the ventricles carefully and compare wall thickness, valves and tendinous cords.",
+          "Draw and annotate the observed structures."
+        ],
+        "variables": [
+          "Compare equivalent points in ventricular walls."
+        ],
+        "safety": [
+          "Wear protection, cut away from hands and disinfect the work area.",
+          "Follow the centre’s biological-material handling and disposal procedure."
+        ],
+        "analysis": "Explain observed wall differences using the pressures required by the two circuits."
+      }
+    },
+    {
+      "id": "blood-tissue-fluid",
+      "unit": "m3",
+      "title": "Blood vessels, tissue fluid and lymph",
+      "spec": "3.1.2",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain exchange between circulating blood and tissues.",
+      "notes": [
+        {
+          "title": "Vessels and blood",
+          "html": "<p>Arteries have thick elastic and muscular walls for high-pressure flow; arterioles regulate resistance and blood distribution. Veins have large lumens and valves to support low-pressure return. Capillaries have thin endothelium and narrow lumens, reducing diffusion distance. Erythrocytes carry haemoglobin; leucocytes defend against pathogens; platelets participate in clotting. Plasma carries solutes, proteins and heat.</p>"
+        },
+        {
+          "title": "Fluid exchange",
+          "html": "<p>Higher capillary hydrostatic pressure towards the arterial end drives fluid out through gaps, leaving cells and most large plasma proteins behind. Dissolved oxygen and nutrients reach cells through tissue fluid. Plasma proteins contribute an inward oncotic effect. Some fluid can return to capillaries; excess fluid and escaped proteins enter lymph vessels and are eventually returned to the circulation. Describe the balance of forces rather than claiming all tissue fluid must re-enter at the venous end.</p>"
+        }
+      ],
+      "keypoints": [
+        "Relate vessel structure to pressure and function.",
+        "Most large plasma proteins remain in capillaries.",
+        "Lymph returns excess interstitial fluid."
+      ],
+      "mistakes": [
+        "Tissue fluid is not whole blood without erythrocytes; most large proteins also remain behind.",
+        "Vein valves maintain direction, not pressure by active pumping."
+      ],
+      "checks": [
+        {
+          "q": "Which vessel provides the main thin exchange barrier?",
+          "opts": [
+            "Capillary",
+            "Aorta",
+            "Vena cava"
+          ],
+          "a": 0,
+          "why": "Capillary endothelium is thin and close to tissues."
+        },
+        {
+          "q": "What returns excess tissue fluid?",
+          "opts": [
+            "Lymphatic vessels",
+            "Tracheae",
+            "Ureters"
+          ],
+          "a": 0,
+          "why": "Lymphatics return fluid and proteins to the circulation."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how loss of plasma proteins can promote tissue swelling.",
+          "m": 3,
+          "ms": [
+            "Reduced plasma protein concentration lowers the inward oncotic effect.",
+            "More fluid remains in or enters the tissue spaces relative to its removal.",
+            "Fluid accumulation can exceed lymphatic return and cause swelling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haemoglobin",
+      "unit": "m3",
+      "title": "Haemoglobin and oxygen dissociation",
+      "spec": "3.1.2",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Interpret cooperative binding, the Bohr effect and fetal haemoglobin.",
+      "notes": [
+        {
+          "title": "Loading and unloading",
+          "html": "<p>Haemoglobin binds oxygen reversibly to haem groups. Cooperative binding produces a sigmoid dissociation curve: binding one oxygen promotes further binding through conformational change. At high oxygen partial pressure in lungs, haemoglobin loads oxygen; at lower tissue partial pressure it unloads oxygen. Myoglobin has a higher oxygen affinity and a more hyperbolic curve, suiting oxygen storage in muscle.</p>"
+        },
+        {
+          "title": "Changing affinity",
+          "html": "<p>Higher carbon dioxide concentration and lower pH shift the haemoglobin curve right, the Bohr effect, supporting unloading in active tissues. Carbon dioxide is transported mainly as hydrogencarbonate after carbonic anhydrase catalysis in erythrocytes; chloride shift helps maintain charge balance. Fetal haemoglobin has higher oxygen affinity than adult haemoglobin, supporting transfer across the placenta without direct mixing of maternal and fetal blood.</p>"
+        }
+      ],
+      "keypoints": [
+        "A right shift means lower affinity at a given oxygen partial pressure.",
+        "Compare saturation at the same partial pressure.",
+        "Fetal haemoglobin helps oxygen transfer from maternal blood."
+      ],
+      "mistakes": [
+        "A dissociation curve is not a time graph.",
+        "The Bohr effect does not mean carbon dioxide supplies oxygen."
+      ],
+      "checks": [
+        {
+          "q": "At the same oxygen partial pressure, a right-shifted curve means…",
+          "opts": [
+            "Lower saturation",
+            "Higher saturation",
+            "No binding possible"
+          ],
+          "a": 0,
+          "why": "A right shift indicates lower oxygen affinity."
+        },
+        {
+          "q": "Fetal haemoglobin normally has…",
+          "opts": [
+            "Higher oxygen affinity than adult haemoglobin",
+            "No haem groups",
+            "Lower affinity at every condition"
+          ],
+          "a": 0,
+          "why": "Its higher affinity supports placental oxygen transfer."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain the benefit of the Bohr effect in exercising muscle.",
+          "m": 3,
+          "ms": [
+            "Respiration produces more carbon dioxide and associated acidity.",
+            "Haemoglobin oxygen affinity decreases and the curve shifts right.",
+            "More oxygen unloads at the tissue partial pressure to support aerobic respiration."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xylem",
+      "unit": "m3",
+      "title": "Xylem, transpiration and plant adaptations",
+      "spec": "3.1.3",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Link water loss to cohesive water transport.",
+      "notes": [
+        {
+          "title": "The transpiration stream",
+          "html": "<p>Water evaporates from moist mesophyll surfaces and diffuses out mainly through stomata. This lowers leaf water potential and creates tension in xylem. Cohesion between water molecules transmits tension down the continuous column; adhesion supports contact with vessel walls. Xylem vessels are dead, hollow and lignified, reducing resistance and resisting collapse. Root water uptake follows water-potential gradients through apoplast and symplast pathways; the endodermal Casparian strip blocks uncontrolled apoplast passage.</p>"
+        },
+        {
+          "title": "Environmental effects",
+          "html": "<p>Temperature, humidity, air movement and light affect water loss, partly through stomatal responses. Xerophytes may have thick cuticles, rolled leaves, sunken stomata or hairs that reduce water-vapour gradients. Hydrophytes have different support and gas-space requirements. A potometer estimates water uptake, which is usually a proxy for transpiration rather than an exact measure: some absorbed water is used in growth or metabolism.</p>"
+        }
+      ],
+      "keypoints": [
+        "Evaporation creates the driving tension.",
+        "Xylem transport is bulk flow without vessel-cell ATP use.",
+        "A potometer measures uptake."
+      ],
+      "mistakes": [
+        "Cohesion–tension is not pumping by living xylem cells.",
+        "Root pressure alone does not explain ascent in tall trees."
+      ],
+      "checks": [
+        {
+          "q": "What bonds support cohesion between water molecules?",
+          "opts": [
+            "Hydrogen bonds",
+            "Peptide bonds",
+            "Ester bonds"
+          ],
+          "a": 0,
+          "why": "Hydrogen bonding creates cohesion."
+        },
+        {
+          "q": "A potometer directly measures…",
+          "opts": [
+            "Water uptake",
+            "All water evaporated exactly",
+            "Sugar transport"
+          ],
+          "a": 0,
+          "why": "Uptake is used as an approximation to water loss."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why increasing air movement can increase transpiration.",
+          "m": 3,
+          "ms": [
+            "Air movement removes humid air around the leaf.",
+            "The water-vapour concentration gradient from the leaf to the air becomes steeper.",
+            "Water vapour diffuses away more rapidly if stomata remain sufficiently open."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "PAG 5 · Potometry",
+        "method": [
+          "Cut a leafy shoot under water and assemble an airtight water-filled potometer.",
+          "Introduce a small bubble and measure its displacement over a known time.",
+          "Allow acclimatisation before changing one environmental factor.",
+          "Repeat and calculate uptake rate from capillary cross-sectional area × bubble displacement / time."
+        ],
+        "variables": [
+          "Control leaf area, temperature, humidity and light except the tested factor."
+        ],
+        "safety": [
+          "Handle capillary glass and cutting tools carefully."
+        ],
+        "analysis": "Compare uptake per unit time, optionally per leaf area; identify leaks and uptake-versus-transpiration limitations."
+      }
+    },
+    {
+      "id": "phloem",
+      "unit": "m3",
+      "title": "Phloem loading and translocation",
+      "spec": "3.1.3",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain source-to-sink movement using pressure flow.",
+      "notes": [
+        {
+          "title": "Loading and pressure flow",
+          "html": "<p>A source releases assimilates, such as sucrose, and a sink uses or stores them. In an apoplastic loading model, companion-cell proton pumps use ATP to create a proton gradient; proton–sucrose cotransport loads sucrose, which reaches sieve tubes. Water enters from xylem by osmosis and raises hydrostatic pressure. Pressure differences drive bulk flow towards sinks, where unloading lowers solute concentration and water can leave.</p>"
+        },
+        {
+          "title": "Evidence and changing roles",
+          "html": "<p>Sieve-tube elements have sieve plates and reduced organelles; companion cells support metabolism and loading. Sources and sinks change with season: a storage organ can export sugars during regrowth and import them later. Ringing experiments and tracer studies support phloem transport, but experimental damage can affect more than one process. Different sieve tubes can transport in opposite directions; this does not require simultaneous opposite bulk flow in one tube.</p>"
+        }
+      ],
+      "keypoints": [
+        "Loading changes water potential and then pressure.",
+        "Companion cells supply metabolic support.",
+        "Source and sink are functional roles."
+      ],
+      "mistakes": [
+        "Phloem does not only move material downwards.",
+        "ATP use in loading does not mean every step of bulk flow requires local ATP."
+      ],
+      "checks": [
+        {
+          "q": "A growing root receiving sucrose is a…",
+          "opts": [
+            "Source",
+            "Sink",
+            "Stoma"
+          ],
+          "a": 1,
+          "why": "It imports assimilates for growth and respiration."
+        },
+        {
+          "q": "What drives bulk flow through a sieve tube?",
+          "opts": [
+            "Hydrostatic pressure difference",
+            "Individual sucrose molecules using flagella",
+            "A light gradient"
+          ],
+          "a": 0,
+          "why": "Loading and unloading establish pressure differences."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how loading sucrose at a source initiates pressure flow.",
+          "m": 3,
+          "ms": [
+            "Sucrose loading lowers sieve-tube water potential.",
+            "Water enters by osmosis from surrounding tissue or xylem.",
+            "Hydrostatic pressure rises and drives flow towards lower-pressure sinks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathogens",
+      "unit": "m4",
+      "title": "Pathogens, transmission and first defences",
+      "spec": "4.1.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Compare infectious agents and non-specific protection.",
+      "notes": [
+        {
+          "title": "Pathogen diversity",
+          "html": "<p>Bacteria can damage tissues or release toxins; viruses replicate within host cells; fungi may grow through tissues; protoctists such as Plasmodium cause malaria. Transmission includes direct contact, droplets, contaminated food or water and vectors. Relevant examples include tuberculosis, HIV/AIDS, influenza, malaria and plant diseases such as tobacco mosaic virus. Disease control must match the transmission route rather than relying on one universal measure.</p>"
+        },
+        {
+          "title": "Defences in plants and animals",
+          "html": "<p>Skin, mucus, cilia, stomach acid and clotting reduce pathogen entry or spread. Inflammation increases local blood supply and access by defence cells. Phagocytes recognise and engulf pathogens, enclosing them in vesicles that fuse with lysosomes; enzymes digest them. Plant barriers include cellulose walls, bark and waxy cuticles; chemical defences and local responses can limit infection. These responses differ from vertebrate antibody-based immunity.</p>"
+        }
+      ],
+      "keypoints": [
+        "Name the agent and its transmission route.",
+        "Phagocytosis is a non-specific defence.",
+        "Plants possess physical and chemical defences."
+      ],
+      "mistakes": [
+        "Viruses do not reproduce independently outside host cells.",
+        "Plants do not make antibodies in the vertebrate immune sense."
+      ],
+      "checks": [
+        {
+          "q": "Which is a protoctist pathogen?",
+          "opts": [
+            "Plasmodium",
+            "Influenza virus",
+            "Mycobacterium tuberculosis"
+          ],
+          "a": 0,
+          "why": "Plasmodium is transmitted by mosquito vectors."
+        },
+        {
+          "q": "What normally follows phagosome formation?",
+          "opts": [
+            "Fusion with enzyme-containing lysosomes",
+            "Immediate antibody secretion by the phagocyte",
+            "Formation of pollen"
+          ],
+          "a": 0,
+          "why": "Lysosomal enzymes digest enclosed material."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how mucus and cilia reduce respiratory infection risk.",
+          "m": 3,
+          "ms": [
+            "Mucus traps particles and pathogens.",
+            "Cilia move the mucus towards the throat.",
+            "Removal and swallowing reduce the number of pathogens reaching deeper gas-exchange surfaces."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immunity",
+      "unit": "m4",
+      "title": "Specific immunity and antibodies",
+      "spec": "4.1.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Trace antigen recognition through clonal expansion and memory.",
+      "notes": [
+        {
+          "title": "Cellular and humoral responses",
+          "html": "<p>Antigen-presenting cells display pathogen antigens and activate appropriate T lymphocytes. Helper T cells coordinate responses; cytotoxic T cells kill infected body cells. A B lymphocyte with a complementary receptor can be activated, often with helper-T-cell support, and divide by clonal expansion. Plasma cells secrete antibodies; memory cells persist. Specificity comes from receptor complementarity, not from pathogens deliberately instructing cells to invent a desired antibody.</p>"
+        },
+        {
+          "title": "Antibodies and memory",
+          "html": "<p>Antibodies contain variable binding regions and constant regions. They can neutralise toxins or viruses, agglutinate targets and support phagocytosis. Secondary responses are usually faster and larger because memory populations already exist. Autoimmune disease involves inappropriate responses to self antigens. HIV can reduce helper T-cell populations, compromising coordination and increasing susceptibility to opportunistic infections.</p>"
+        }
+      ],
+      "keypoints": [
+        "B cells generate plasma cells and memory cells.",
+        "T cells have coordinating and cytotoxic roles.",
+        "Memory improves a later response to the same antigen."
+      ],
+      "mistakes": [
+        "Antibodies are proteins, not whole defence cells.",
+        "A memory cell does not continuously secrete large quantities of antibody like a plasma cell."
+      ],
+      "checks": [
+        {
+          "q": "Which cells secrete large quantities of antibodies?",
+          "opts": [
+            "Plasma cells",
+            "Erythrocytes",
+            "Platelets"
+          ],
+          "a": 0,
+          "why": "Plasma cells are differentiated B-cell descendants."
+        },
+        {
+          "q": "Why is a secondary response faster?",
+          "opts": [
+            "Memory cells are already present",
+            "The pathogen becomes harmless in every case",
+            "Antigens vanish permanently"
+          ],
+          "a": 0,
+          "why": "Memory populations rapidly expand on re-exposure."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe how a specific B-cell response develops after antigen exposure.",
+          "m": 4,
+          "ms": [
+            "A B cell with a complementary receptor recognises the antigen and receives activation signals.",
+            "The selected cell divides by clonal expansion.",
+            "Some descendants become plasma cells secreting specific antibody.",
+            "Others become memory cells for future responses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vaccines-antimicrobials",
+      "unit": "m4",
+      "title": "Vaccination, drugs and antibiotic resistance",
+      "spec": "4.1.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Evaluate immune protection and selection in pathogen populations.",
+      "notes": [
+        {
+          "title": "Active and passive protection",
+          "html": "<p>Vaccination supplies antigenic material safely enough to stimulate an adaptive response and memory. Active immunity develops after the recipient responds; passive immunity transfers antibodies and is immediate but usually temporary without generating the same memory. Population protection depends on effective immunity and transmission, so coverage alone is not a guarantee. Drug development involves preclinical evidence and controlled clinical trials assessing safety, dose and effectiveness, with ethical safeguards.</p>"
+        },
+        {
+          "title": "Antimicrobials and resistance",
+          "html": "<p>Antibiotics target bacterial structures or processes, such as cell-wall synthesis or ribosomes; they do not directly treat viruses. Mutation or acquired genes can confer resistance. Antibiotic exposure selects resistant variants that survive, reproduce and transmit resistance. Appropriate prescribing and infection prevention reduce selection and spread. Antifungal and antiviral drugs face different targets because fungi are eukaryotes and viruses exploit host machinery.</p>"
+        }
+      ],
+      "keypoints": [
+        "Active immunity involves the recipient’s response.",
+        "Antibiotics act on bacterial targets.",
+        "Selection changes resistant-allele frequency."
+      ],
+      "mistakes": [
+        "Bacteria do not become resistant because they need to.",
+        "Vaccination and passive antibody transfer are different."
+      ],
+      "checks": [
+        {
+          "q": "Which normally gives immediate temporary protection without generating memory?",
+          "opts": [
+            "Passive antibody transfer",
+            "A primary vaccination response",
+            "Meiosis"
+          ],
+          "a": 0,
+          "why": "Transferred antibodies act immediately but are later broken down."
+        },
+        {
+          "q": "Why do antibiotics not directly treat influenza virus?",
+          "opts": [
+            "Viruses lack the bacterial targets",
+            "Viruses are larger than bacteria",
+            "Antibiotics only dissolve mucus"
+          ],
+          "a": 0,
+          "why": "Virus replication relies on host machinery rather than bacterial structures."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how an antibiotic-resistant bacterial population can become common during treatment.",
+          "m": 3,
+          "ms": [
+            "Resistance already exists through mutation or acquired genes in some bacteria.",
+            "The antibiotic kills or inhibits susceptible bacteria more strongly.",
+            "Resistant survivors reproduce and pass on resistance, increasing its frequency."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biodiversity-sampling",
+      "unit": "m4",
+      "title": "Sampling and measuring biodiversity",
+      "spec": "4.2.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Estimate abundance and diversity with transparent sampling choices.",
+      "notes": [
+        {
+          "title": "Representative sampling",
+          "html": "<p>Biodiversity includes habitat, species and genetic diversity. Species richness counts species; evenness describes how similarly individuals are distributed among them. Use random quadrat positions for representative area estimates, and systematic transects to investigate a gradient. Record enough independent samples and define identification and counting rules. Capture–mark–recapture estimates population size as first sample marked × second sample size / recaptured marked individuals, assuming mixing, retained harmless marks and a sufficiently closed population.</p>"
+        },
+        {
+          "title": "Comparing communities",
+          "html": "<p>For the form D = 1 − Σ(n/N)², Simpson’s diversity index increases as diversity increases; other published conventions use different formulas, so state the one used. Sample size and sampling effort affect estimates. Genetic diversity can be assessed by the proportion of polymorphic gene loci. Habitat loss, overexploitation, pollution and climate change can reduce diversity, but quantitative conclusions require suitable comparable evidence.</p>"
+        }
+      ],
+      "keypoints": [
+        "State sampling strategy and effort.",
+        "Richness and evenness are distinct.",
+        "Check the convention for a diversity index."
+      ],
+      "mistakes": [
+        "A transect investigates a gradient and is not identical to random sampling.",
+        "Mark–recapture assumptions need justification."
+      ],
+      "checks": [
+        {
+          "q": "20 animals are marked. A second sample contains 30 animals, six marked. Estimate population size.",
+          "a": 100,
+          "unit": "animals",
+          "why": "20 × 30 / 6 = 100.",
+          "tol": 0.01
+        },
+        {
+          "q": "Two sites have equal richness. Which can still differ?",
+          "opts": [
+            "Evenness",
+            "The number of species by definition",
+            "Whether richness was measured"
+          ],
+          "a": 0,
+          "why": "The species can have very different relative abundances."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three requirements for a valid mark–recapture estimate.",
+          "m": 3,
+          "ms": [
+            "Marked organisms mix with the population before resampling.",
+            "Marks remain identifiable and do not alter survival or capture probability.",
+            "Births, deaths, immigration and emigration are negligible over the sampling period."
+          ]
+        }
+      ],
+      "sim": "sampling",
+      "practical": {
+        "title": "PAG 3 · Quadrat and transect sampling",
+        "method": [
+          "Define a sampling area and generate random coordinates for quadrats.",
+          "Record species and abundance or percentage cover using consistent rules.",
+          "Use a separate systematic belt transect if testing an environmental gradient.",
+          "Measure relevant abiotic factors and repeat at sufficient locations."
+        ],
+        "variables": [
+          "Keep quadrat area, identification rules and sampling effort comparable."
+        ],
+        "safety": [
+          "Assess terrain, weather and organism-handling risks and minimise habitat disturbance."
+        ],
+        "analysis": "Calculate means, richness and an explicitly defined diversity index; distinguish association from cause."
+      }
+    },
+    {
+      "id": "classification",
+      "unit": "m4",
+      "title": "Classification and phylogenetic evidence",
+      "spec": "4.2.2",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Use shared ancestry rather than appearance alone.",
+      "notes": [
+        {
+          "title": "Organising organisms",
+          "html": "<p>Taxonomic ranks include domain, kingdom, phylum, class, order, family, genus and species. Binomial names contain genus and species; the genus begins with a capital. The three-domain system separates Bacteria, Archaea and Eukarya using molecular and cellular evidence. Classification is revised as evidence changes; a useful system groups organisms by evolutionary relationships rather than superficial similarity alone.</p>"
+        },
+        {
+          "title": "Evidence and species concepts",
+          "html": "<p>Phylogenies combine molecular sequences, anatomy and other evidence. Similar DNA or amino acid sequences can indicate a more recent common ancestor, but comparison must use homologous sequences and appropriate methods. A biological species concept concerns interbreeding and fertile offspring, with limitations for asexual organisms, fossils and geographically separated populations. Convergent evolution creates similar adaptations in lineages without a recent common origin for that feature.</p>"
+        }
+      ],
+      "keypoints": [
+        "Distinguish taxonomy from the evidence used to infer ancestry.",
+        "Use homologous molecular sequences.",
+        "Species definitions have practical limitations."
+      ],
+      "mistakes": [
+        "An organism’s complexity does not tell you how recently it evolved.",
+        "Similar function alone does not prove recent shared ancestry."
+      ],
+      "checks": [
+        {
+          "q": "Which pair forms a binomial name?",
+          "opts": [
+            "Genus and species",
+            "Family and order",
+            "Domain and kingdom"
+          ],
+          "a": 0,
+          "why": "The binomial combines genus and species."
+        },
+        {
+          "q": "Why can DNA evidence revise classification?",
+          "opts": [
+            "It provides evidence of relatedness not obvious from appearance",
+            "It prevents all mutation",
+            "It makes fossils unnecessary in every study"
+          ],
+          "a": 0,
+          "why": "Molecular comparisons can reveal previously hidden evolutionary relationships."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why similar body shapes in unrelated aquatic animals do not necessarily indicate a recent common ancestor.",
+          "m": 3,
+          "ms": [
+            "Similar environments impose similar selection pressures.",
+            "Different lineages can evolve similar functional adaptations independently.",
+            "This is convergent evolution, so additional homologous or molecular evidence is required."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evolution",
+      "unit": "m4",
+      "title": "Variation, selection and adaptation",
+      "spec": "4.2.2",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Explain population change using differential reproductive success.",
+      "notes": [
+        {
+          "title": "Sources and types of variation",
+          "html": "<p>Mutation generates new alleles; meiosis and fertilisation reshuffle alleles. Continuous variation commonly reflects many genes and environmental influences; discontinuous variation forms distinct categories, although environment can still affect some traits. Selection acts on phenotypes, while inherited allele frequencies change across generations. Structural, physiological and behavioural adaptations improve reproductive success in a particular environment.</p>"
+        },
+        {
+          "title": "Selection and speciation",
+          "html": "<p>If a heritable phenotype improves survival or reproduction under a selection pressure, its associated alleles tend to increase. Genetic drift produces chance changes, especially in small populations. Geographic or reproductive isolation can reduce gene flow, permitting divergence and eventually reproductive incompatibility. Fossils, molecular comparisons and directly observed population changes support evolutionary explanations; individual organisms do not evolve new inherited features because they try to adapt.</p>"
+        }
+      ],
+      "keypoints": [
+        "State variation, inheritance, selection pressure and reproduction.",
+        "Evolution concerns populations over generations.",
+        "Drift differs from selection."
+      ],
+      "mistakes": [
+        "Need does not cause a directed useful mutation.",
+        "Individuals do not change their alleles merely by using a structure."
+      ],
+      "checks": [
+        {
+          "q": "Which creates new alleles?",
+          "opts": [
+            "Mutation",
+            "Independent assortment alone",
+            "Random fertilisation alone"
+          ],
+          "a": 0,
+          "why": "Meiosis and fertilisation rearrange existing alleles."
+        },
+        {
+          "q": "Chance allele-frequency change is…",
+          "opts": [
+            "Genetic drift",
+            "Always directional selection",
+            "Translation"
+          ],
+          "a": 0,
+          "why": "Drift is especially strong in small populations."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how pesticide resistance can increase in an insect population.",
+          "m": 4,
+          "ms": [
+            "Heritable variation means some insects carry resistance alleles.",
+            "Pesticide exposure kills susceptible insects more readily.",
+            "Resistant insects leave more offspring that inherit resistance.",
+            "Resistance alleles increase in frequency across generations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homeostasis",
+      "unit": "m5",
+      "title": "Homeostasis and cell signalling",
+      "spec": "5.1.1",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain coordinated negative feedback in changing environments.",
+      "notes": [
+        {
+          "title": "Feedback loops",
+          "html": "<p>Homeostasis maintains a dynamic internal environment within tolerable ranges. Receptors detect a change; coordination centres process information; effectors alter conditions. Negative feedback opposes deviation, usually around a range rather than an absolutely fixed value. Positive feedback amplifies a change and requires an endpoint, as in aspects of childbirth or clotting. Conditions still fluctuate during successful regulation.</p>"
+        },
+        {
+          "title": "Communication systems",
+          "html": "<p>Cell signalling requires a signal, a complementary receptor and a cellular response. Nervous communication uses impulses along neurones and chemical transmission at synapses, giving targeted rapid effects. Endocrine communication uses hormones in blood; only cells with suitable receptors respond. Some hormones alter transcription, while others act through membrane receptors and second messengers. Receptor specificity matters more than whether every tissue receives the blood.</p>"
+        },
+        {
+          "title": "Thermoregulation in endotherms and ectotherms",
+          "html": "<p>Endotherms use metabolic heat and regulate heat exchange; ectotherms depend more strongly on external heat sources but can regulate temperature behaviourally. In a warm endotherm, vasodilation increases skin blood flow and evaporation can remove heat. In the cold, vasoconstriction limits skin heat loss and shivering increases heat production. Hair erection has little insulating effect in humans but can matter in furred mammals. Ectotherms may bask, seek shade or change posture. Avoid saying that an ectotherm’s temperature is always identical to air temperature.</p>"
+        }
+      ],
+      "keypoints": [
+        "Name stimulus, receptor, coordination and effector.",
+        "Negative feedback opposes a deviation.",
+        "Only appropriate receptors confer target-cell responsiveness."
+      ],
+      "mistakes": [
+        "Homeostasis is dynamic rather than no change.",
+        "Positive feedback is not simply an effective negative-feedback response."
+      ],
+      "checks": [
+        {
+          "q": "Negative feedback usually…",
+          "opts": [
+            "Opposes the initial deviation",
+            "Amplifies every change",
+            "Stops all fluctuation"
+          ],
+          "a": 0,
+          "why": "The response acts to bring the regulated variable back towards its range."
+        },
+        {
+          "q": "Why do only some cells respond to a circulating hormone?",
+          "opts": [
+            "They have suitable receptors",
+            "Only those cells contain blood",
+            "Hormones recognise cell names"
+          ],
+          "a": 0,
+          "why": "Receptor complementarity determines response."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how negative feedback stabilises a regulated variable.",
+          "m": 3,
+          "ms": [
+            "A receptor detects a deviation from the regulated range.",
+            "A coordination system activates an appropriate effector.",
+            "The effector response reduces the deviation and feedback reduces stimulation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "excretion",
+      "unit": "m5",
+      "title": "Excretion, the liver and urea",
+      "spec": "5.1.2",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Distinguish removal of metabolic wastes from egestion.",
+      "notes": [
+        {
+          "title": "Metabolic waste and the liver",
+          "html": "<p>Excretion removes metabolic waste or substances in excess of requirements. Carbon dioxide is excreted through lungs; nitrogenous waste is processed by the liver and removed by kidneys. The liver’s blood supply brings absorbed nutrients via the hepatic portal vein and oxygenated blood via the hepatic artery. Hepatocytes around sinusoids exchange substances with blood and support detoxification, carbohydrate metabolism and plasma protein synthesis.</p>"
+        },
+        {
+          "title": "Amino acids and detoxification",
+          "html": "<p>Excess amino acids cannot be stored as a dedicated amino-acid reserve. Deamination removes the amino group; the remaining carbon skeleton can enter metabolism. Toxic ammonia is converted to less toxic urea through the ornithine cycle, using energy, and urea travels to the kidneys. Detoxification modifies substances such as alcohol, but processing capacity is limited. Egestion removes undigested material from the gut and is distinct from excretion.</p>"
+        }
+      ],
+      "keypoints": [
+        "Urea is made in the liver and excreted by kidneys.",
+        "Deamination releases nitrogen from amino acids.",
+        "Excretion and egestion are different."
+      ],
+      "mistakes": [
+        "Kidneys do not manufacture most urea.",
+        "Faeces are not simply a collection of metabolic wastes."
+      ],
+      "checks": [
+        {
+          "q": "Where is most urea synthesised?",
+          "opts": [
+            "Liver",
+            "Bladder",
+            "Alveoli"
+          ],
+          "a": 0,
+          "why": "The liver converts ammonia into urea."
+        },
+        {
+          "q": "Which is egestion?",
+          "opts": [
+            "Removal of undigested material",
+            "Removal of carbon dioxide",
+            "Removal of urea"
+          ],
+          "a": 0,
+          "why": "Undigested gut contents are egested."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why excess amino acids increase urea production.",
+          "m": 3,
+          "ms": [
+            "Excess amino acids are deaminated.",
+            "Their amino groups produce toxic ammonia.",
+            "The liver converts ammonia to less toxic urea for excretion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kidney",
+      "unit": "m5",
+      "title": "Nephrons, ultrafiltration and reabsorption",
+      "spec": "5.1.2",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Follow filtrate formation and selective recovery.",
+      "notes": [
+        {
+          "title": "Ultrafiltration",
+          "html": "<p>Blood enters the glomerulus through an afferent arteriole. High hydrostatic pressure drives water and small solutes through fenestrated endothelium, the basement membrane and podocyte filtration slits into the capsule. Blood cells and most large plasma proteins are retained. The filtrate contains glucose, ions, urea and water; filtration is not a selective decision to remove only harmful material.</p>"
+        },
+        {
+          "title": "Selective reabsorption",
+          "html": "<p>The proximal convoluted tubule has microvilli and many mitochondria for efficient transport. Sodium gradients support glucose cotransport; glucose normally returns to blood rather than remaining in urine. Water follows solute gradients by osmosis. The loop of Henle establishes a medullary osmotic gradient through different water and ion permeabilities and countercurrent arrangement. Later tubule and collecting-duct transport adjusts final urine composition.</p>"
+        },
+        {
+          "title": "The countercurrent multiplier",
+          "html": "<p>The descending limb of the loop of Henle is permeable to water. As the filtrate travels into the increasingly concentrated medulla, water leaves by osmosis, concentrating the filtrate. The ascending limb is impermeable to water; sodium and chloride ions leave, with active transport in the thick ascending limb. Water cannot follow here, so the filtrate becomes more dilute while the surrounding medulla becomes more concentrated. The opposing flows maintain a gradient down the medulla. Water can then leave the collecting duct by osmosis when ADH increases its permeability, producing a smaller volume of more concentrated urine.</p>"
+        }
+      ],
+      "keypoints": [
+        "Filtration depends on pressure and barrier properties.",
+        "Useful solutes enter filtrate and must be recovered.",
+        "PCT structure supports reabsorption."
+      ],
+      "mistakes": [
+        "Glucose in filtrate does not necessarily mean glucose in final urine.",
+        "Normal ultrafiltration excludes most large proteins."
+      ],
+      "checks": [
+        {
+          "q": "Which is normally largely retained in glomerular blood?",
+          "opts": [
+            "Large plasma proteins",
+            "Urea",
+            "Glucose"
+          ],
+          "a": 0,
+          "why": "The filtration barrier restricts large proteins and cells."
+        },
+        {
+          "q": "What supports glucose cotransport in the PCT?",
+          "opts": [
+            "A sodium gradient",
+            "A light gradient",
+            "DNA leaving nuclei"
+          ],
+          "a": 0,
+          "why": "A sodium gradient maintained by active transport supplies the driving force."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three proximal-tubule adaptations for reabsorption.",
+          "m": 3,
+          "ms": [
+            "Microvilli increase the membrane surface area.",
+            "Many mitochondria supply ATP for ion pumping.",
+            "Carrier proteins enable selective transport, including sodium-linked glucose uptake."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osmoregulation",
+      "unit": "m5",
+      "title": "ADH, osmoregulation and kidney failure",
+      "spec": "5.1.2",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain water balance and evaluate replacement treatments.",
+      "notes": [
+        {
+          "title": "Water-potential feedback",
+          "html": "<p>Osmoreceptors in the hypothalamus detect reduced blood water potential. ADH is synthesised in hypothalamic neurones and released from the posterior pituitary. It increases collecting-duct water permeability by promoting aquaporin insertion. More water returns to blood down the medullary water-potential gradient, producing a smaller volume of concentrated urine. Higher blood water potential reduces ADH release and promotes more dilute urine.</p>"
+        },
+        {
+          "title": "Failure and evidence",
+          "html": "<p>Dialysis removes wastes and adjusts ion and water balance across a selectively permeable membrane; useful solute concentrations in dialysis fluid limit unwanted losses. Transplantation can restore regulation but requires a suitable organ and usually immunosuppression. Diagnostic tests may detect glucose, proteins or hCG using different chemical or antibody methods; they require appropriate controls and interpretation. A single abnormal result is evidence requiring investigation, not a complete diagnosis.</p>"
+        }
+      ],
+      "keypoints": [
+        "ADH is released by the posterior pituitary.",
+        "Aquaporins alter water permeability.",
+        "Dialysis relies on controlled gradients."
+      ],
+      "mistakes": [
+        "ADH does not add water to blood from nowhere.",
+        "All diagnostic tests do not use the same molecular principle."
+      ],
+      "checks": [
+        {
+          "q": "More ADH usually produces…",
+          "opts": [
+            "Less, more concentrated urine",
+            "More, more dilute urine",
+            "No aquaporins"
+          ],
+          "a": 0,
+          "why": "More water is reabsorbed from collecting ducts."
+        },
+        {
+          "q": "Why include glucose at an appropriate concentration in dialysis fluid?",
+          "opts": [
+            "To limit net glucose loss from blood",
+            "To create new nephrons",
+            "To stop urea diffusion"
+          ],
+          "a": 0,
+          "why": "An appropriate concentration reduces an unwanted glucose gradient."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe the response to a fall in blood water potential.",
+          "m": 4,
+          "ms": [
+            "Hypothalamic osmoreceptors detect the change.",
+            "More ADH is released from the posterior pituitary.",
+            "More aquaporins increase collecting-duct water permeability.",
+            "More water is reabsorbed by osmosis and urine becomes more concentrated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neurones",
+      "unit": "m5",
+      "title": "Resting potentials and action potentials",
+      "spec": "5.1.3",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain impulse generation and conduction.",
+      "notes": [
+        {
+          "title": "Resting and action potentials",
+          "html": "<p>The sodium–potassium pump maintains ion gradients, moving three Na⁺ out and two K⁺ in per ATP. Differential permeability, especially potassium leakage, contributes to a negative resting potential. Above threshold, voltage-gated sodium channels open and sodium entry depolarises the membrane. Sodium-channel inactivation and opening potassium channels produce repolarisation, followed by possible hyperpolarisation. Action-potential amplitude is all-or-nothing rather than proportional to stimulus strength.</p>"
+        },
+        {
+          "title": "Propagation",
+          "html": "<p>Local currents depolarise adjacent membrane. Refractory periods limit firing frequency and normally prevent immediate backward re-excitation. Myelin insulates axons, so action potentials regenerate at nodes of Ranvier: saltatory conduction is faster and reduces ion exchange along the length. Stronger stimuli are commonly encoded as higher impulse frequency and recruitment of more neurones, not larger individual impulses.</p>"
+        }
+      ],
+      "keypoints": [
+        "Pumps maintain gradients; channels mediate rapid potential changes.",
+        "Threshold triggers all-or-nothing impulses.",
+        "Myelin supports saltatory conduction."
+      ],
+      "mistakes": [
+        "Sodium pumps do not directly produce the rapid upstroke.",
+        "A stronger stimulus does not normally enlarge each action potential."
+      ],
+      "checks": [
+        {
+          "q": "What causes the rapid depolarising upstroke?",
+          "opts": [
+            "Na⁺ entry through voltage-gated channels",
+            "K⁺ entry through all channels",
+            "The cell losing all ATP instantly"
+          ],
+          "a": 0,
+          "why": "Sodium channels open above threshold and sodium enters down its electrochemical gradient."
+        },
+        {
+          "q": "Stronger stimulation commonly increases…",
+          "opts": [
+            "Impulse frequency",
+            "Each impulse amplitude without limit",
+            "Axon length"
+          ],
+          "a": 0,
+          "why": "Frequency codes intensity while amplitude remains approximately fixed."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how myelination increases conduction speed.",
+          "m": 3,
+          "ms": [
+            "Myelin electrically insulates sections of axon.",
+            "Action potentials regenerate mainly at nodes of Ranvier.",
+            "Local currents spread between nodes so saltatory conduction is faster than continuous regeneration."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synapses",
+      "unit": "m5",
+      "title": "Synapses and neuromuscular transmission",
+      "spec": "5.1.3; 5.1.5",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain directional chemical communication.",
+      "notes": [
+        {
+          "title": "Chemical synaptic sequence",
+          "html": "<p>An action potential reaches a presynaptic terminal and opens voltage-gated calcium channels. Calcium entry triggers vesicle fusion and neurotransmitter release by exocytosis. Transmitter diffuses across the cleft and binds postsynaptic receptors, changing ion-channel activity. At a cholinergic synapse, acetylcholinesterase hydrolyses acetylcholine; choline is recycled. Release sites and receptor distribution usually make chemical transmission one-way.</p>"
+        },
+        {
+          "title": "Integration and muscle activation",
+          "html": "<p>Excitatory and inhibitory inputs alter the chance of reaching threshold. Temporal summation combines repeated inputs from one terminal; spatial summation combines different terminals. A neuromuscular junction activates a muscle fibre through acetylcholine. Drugs can alter synthesis, release, receptor binding or breakdown, so interpret their effects from the actual mechanism rather than assuming all synaptic drugs are stimulants.</p>"
+        }
+      ],
+      "keypoints": [
+        "Calcium entry triggers transmitter release.",
+        "Receptors generate a postsynaptic effect.",
+        "Summation integrates multiple inputs."
+      ],
+      "mistakes": [
+        "An electrical impulse does not physically jump across a chemical synaptic cleft.",
+        "Acetylcholinesterase breaks down transmitter, not the receptor."
+      ],
+      "checks": [
+        {
+          "q": "Which ion triggers vesicle release?",
+          "opts": [
+            "Ca²⁺",
+            "Chloride in every synapse",
+            "Iron in haemoglobin"
+          ],
+          "a": 0,
+          "why": "Calcium entry initiates vesicle fusion."
+        },
+        {
+          "q": "Several inputs at different synapses combine. This is…",
+          "opts": [
+            "Spatial summation",
+            "Temporal summation only",
+            "Ultrafiltration"
+          ],
+          "a": 0,
+          "why": "Spatial summation integrates inputs from different locations."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe transmission across a cholinergic chemical synapse.",
+          "m": 4,
+          "ms": [
+            "An arriving impulse opens calcium channels and calcium enters.",
+            "Vesicles release acetylcholine by exocytosis.",
+            "Acetylcholine diffuses across the cleft and binds postsynaptic receptors.",
+            "Receptor activation changes ion permeability and can initiate a postsynaptic impulse if threshold is reached."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endocrine-glucose",
+      "unit": "m5",
+      "title": "Endocrine signalling and blood glucose",
+      "spec": "5.1.4",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain antagonistic hormones and second messengers.",
+      "notes": [
+        {
+          "title": "Hormone mechanisms",
+          "html": "<p>Endocrine glands release hormones into blood. Peptide hormones generally bind cell-surface receptors and activate intracellular pathways; steroid hormones can cross membranes and interact with intracellular receptors affecting transcription. Adrenaline from the adrenal medulla prepares for activity and can stimulate glycogen breakdown through a receptor and second-messenger cascade. The adrenal cortex secretes steroid hormones. Responses depend on receptor expression and downstream machinery.</p>"
+        },
+        {
+          "title": "Glucose regulation",
+          "html": "<p>Pancreatic β cells release insulin when blood glucose rises; it promotes glucose uptake in responsive tissues and glycogenesis. Pancreatic α cells release glucagon when glucose falls; glucagon acts mainly on liver to promote glycogenolysis and gluconeogenesis. These changes form negative feedback. Type 1 diabetes involves loss of insulin-producing cells; type 2 involves insulin resistance with variable impaired secretion. Evaluate treatments using their mechanisms rather than treating the two conditions as identical.</p>"
+        }
+      ],
+      "keypoints": [
+        "Insulin and glucagon are antagonistic regulators.",
+        "Glycogenesis makes glycogen; glycogenolysis breaks it down.",
+        "Second messengers amplify receptor signalling."
+      ],
+      "mistakes": [
+        "Glucagon does not directly convert glycogen into glucose inside blood plasma.",
+        "Insulin is not an enzyme that digests glucose."
+      ],
+      "checks": [
+        {
+          "q": "Which pancreatic cells secrete insulin?",
+          "opts": [
+            "β cells",
+            "α cells",
+            "Erythrocytes"
+          ],
+          "a": 0,
+          "why": "β cells respond to raised glucose."
+        },
+        {
+          "q": "Glycogenolysis means…",
+          "opts": [
+            "Breakdown of glycogen",
+            "Synthesis of glycogen",
+            "Breakdown of antibodies"
+          ],
+          "a": 0,
+          "why": "It releases glucose units from glycogen."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how glucagon helps correct low blood glucose.",
+          "m": 4,
+          "ms": [
+            "Low glucose stimulates pancreatic α cells to release glucagon.",
+            "Glucagon binds receptors on liver cells and activates signalling.",
+            "Glycogen breakdown and glucose synthesis increase glucose release.",
+            "Rising blood glucose reduces the original stimulus through negative feedback."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "animal-responses",
+      "unit": "m5",
+      "title": "Reflexes, muscles and animal behaviour",
+      "spec": "5.1.5",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Connect coordinated responses with their survival value.",
+      "notes": [
+        {
+          "title": "Control pathways",
+          "html": "<p>The central nervous system integrates sensory input with responses. Reflex arcs link receptors, sensory neurones, central connections, motor neurones and effectors, providing rapid protective responses. The autonomic system controls involuntary functions; sympathetic and parasympathetic actions often oppose one another. Heart rate responds to sensory information through cardiovascular centres and autonomic output rather than the heart requiring conscious instructions for each beat.</p>"
+        },
+        {
+          "title": "Muscles and behaviour",
+          "html": "<p>In striated muscle, calcium binds troponin and moves tropomyosin away from actin binding sites. Myosin crossbridges cycle using ATP; filaments slide and sarcomeres shorten without actin or myosin filaments themselves shortening. Behaviour ranges from innate taxis and kinesis to learning such as habituation and conditioning. Interpret behaviour experiments with controls, adequate replication and ethical treatment; reduced response may reflect fatigue rather than learning.</p>"
+        },
+        {
+          "title": "The brain and learned responses",
+          "html": "<p>The cerebrum supports conscious processing and voluntary action; the cerebellum coordinates movement; the medulla contains centres involved in autonomic control. Innate responses develop without the specific learning experience, whereas learned responses are modified by experience. Habituation reduces response to a repeated harmless stimulus; classical conditioning links stimuli, and operant conditioning changes behaviour through consequences. Reflexes, fixed action patterns and learned behaviour have different roles, and controlled experiments must distinguish learning from sensory adaptation or fatigue.</p>"
+        }
+      ],
+      "keypoints": [
+        "Sliding filaments shorten sarcomeres.",
+        "Calcium controls exposure of actin binding sites.",
+        "Distinguish directed taxis from non-directional kinesis."
+      ],
+      "mistakes": [
+        "Actin filaments do not shorten during contraction.",
+        "Every reduced behavioural response is not automatically habituation."
+      ],
+      "checks": [
+        {
+          "q": "What binds calcium during skeletal-muscle activation?",
+          "opts": [
+            "Troponin",
+            "Cellulose",
+            "DNA polymerase"
+          ],
+          "a": 0,
+          "why": "Troponin changes shape and shifts tropomyosin."
+        },
+        {
+          "q": "Movement directed towards a stimulus is…",
+          "opts": [
+            "Positive taxis",
+            "Kinesis only",
+            "Random fertilisation"
+          ],
+          "a": 0,
+          "why": "Taxis is a directional response."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how calcium and ATP enable skeletal muscle contraction.",
+          "m": 3,
+          "ms": [
+            "Calcium binds troponin and moves tropomyosin to expose actin binding sites.",
+            "Myosin binds actin and performs a power stroke.",
+            "ATP binding detaches myosin and ATP hydrolysis re-energises the head for further cycling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plant-responses",
+      "unit": "m5",
+      "title": "Plant hormones and tropisms",
+      "spec": "5.1.5",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain growth responses and evaluate hormone applications.",
+      "notes": [
+        {
+          "title": "Coordinated growth",
+          "html": "<p>Plants use hormones to coordinate growth and responses. Auxin promotes shoot-cell elongation partly through acidification and cell-wall loosening. Unequal auxin distribution causes differential growth in phototropism and gravitropism; concentration and tissue sensitivity matter, particularly in roots. Gibberellins promote germination through changes in gene expression, including production of enzymes mobilising seed reserves. Abscisic acid contributes to dormancy and drought responses, including stomatal closure.</p>"
+        },
+        {
+          "title": "Applications and evidence",
+          "html": "<p>Cytokinins promote cell division, while ethene influences ripening and abscission. Commercial uses include rooting powders, selective herbicides, controlled ripening and tissue-culture hormone balances. Investigations should control light, temperature, seed age, water and hormone concentration. A growth curve alone does not reveal the entire molecular mechanism; compare controls and account for toxicity at high concentrations.</p>"
+        }
+      ],
+      "keypoints": [
+        "Tropisms are directional growth responses.",
+        "Hormone effects depend on concentration and tissue.",
+        "Gibberellin can mobilise seed reserves."
+      ],
+      "mistakes": [
+        "Plants do not move towards light using nerves.",
+        "Auxin has identical effects at every concentration in every tissue is incorrect."
+      ],
+      "checks": [
+        {
+          "q": "Which hormone is strongly associated with seed germination and reserve mobilisation?",
+          "opts": [
+            "Gibberellin",
+            "Antibody",
+            "Insulin"
+          ],
+          "a": 0,
+          "why": "Gibberellin promotes enzyme production during germination."
+        },
+        {
+          "q": "A shoot bends towards light because…",
+          "opts": [
+            "Cells on its sides elongate unequally",
+            "All cells divide equally",
+            "Light pulls the shoot mechanically"
+          ],
+          "a": 0,
+          "why": "Differential elongation creates curvature."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Plan three controls when testing auxin concentration on root growth.",
+          "m": 3,
+          "ms": [
+            "Use seedlings of the same species and comparable initial age and size.",
+            "Keep light, temperature, water and exposure duration constant.",
+            "Include a solvent-only or zero-auxin control and independent replicate seedlings."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "PAG 11 · Plant responses",
+        "method": [
+          "Select comparable seedlings and assign them randomly to treatments.",
+          "Apply a concentration series and a suitable untreated or solvent control.",
+          "Measure initial and final growth using a consistent interval and method.",
+          "Repeat using independent seedlings."
+        ],
+        "variables": [
+          "Control species, age, light, temperature, water and treatment time."
+        ],
+        "safety": [
+          "Handle hormone solutions using approved dilution and disposal procedures."
+        ],
+        "analysis": "Compare growth changes and variation; consider concentration-dependent inhibition rather than assuming a linear response."
+      }
+    },
+    {
+      "id": "photosynthesis-light",
+      "unit": "m5",
+      "title": "Photosynthesis: light-dependent reactions",
+      "spec": "5.2.1",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Trace energy transfer across thylakoid membranes.",
+      "notes": [
+        {
+          "title": "Capturing light",
+          "html": "<p>Chloroplasts contain thylakoid membranes arranged in grana and a surrounding stroma. Photosynthetic pigments absorb particular wavelengths; accessory pigments transfer energy to reaction centres. An absorption spectrum describes pigment light absorption, while an action spectrum describes the rate of photosynthesis under different wavelengths. Chromatography separates pigments by their different affinities for mobile and stationary phases; Rf = distance travelled by pigment / distance travelled by solvent front.</p>"
+        },
+        {
+          "title": "Electron transport and ATP",
+          "html": "<p>In non-cyclic photophosphorylation, light excites electrons in photosystem II and photosystem I. Photolysis replaces PSII electrons and releases protons and oxygen. Electron transfer supports a proton gradient across thylakoids; protons pass through ATP synthase to make ATP. Electrons and protons reduce NADP to reduced NADP. Cyclic photophosphorylation involves PSI and makes ATP without producing reduced NADP or oxygen.</p>"
+        }
+      ],
+      "keypoints": [
+        "Oxygen released comes from water.",
+        "A proton gradient drives ATP synthase.",
+        "Cyclic flow produces ATP without reduced NADP."
+      ],
+      "mistakes": [
+        "Chlorophyll does not absorb all wavelengths equally.",
+        "Photolysis is not the splitting of carbon dioxide."
+      ],
+      "checks": [
+        {
+          "q": "The oxygen released in photosynthesis originates from…",
+          "opts": [
+            "Water",
+            "Glucose",
+            "Carbon dioxide directly"
+          ],
+          "a": 0,
+          "why": "Photolysis of water releases oxygen."
+        },
+        {
+          "q": "A pigment travels 36 mm and the solvent front 60 mm. Calculate Rf.",
+          "a": 0.6,
+          "unit": "",
+          "why": "36 / 60 = 0.60.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain how light-dependent reactions produce ATP.",
+          "m": 3,
+          "ms": [
+            "Light-excited electron transport supports proton accumulation inside thylakoids.",
+            "This establishes an electrochemical proton gradient.",
+            "Protons return through ATP synthase, driving ATP formation from ADP and phosphate."
+          ]
+        }
+      ],
+      "sim": "photosynthesis",
+      "practical": {
+        "title": "PAG 6 · Pigment chromatography",
+        "method": [
+          "Extract pigments from a suitable leaf using an approved solvent.",
+          "Spot the extract repeatedly onto a pencil baseline, allowing each spot to dry.",
+          "Run chromatography with the baseline above solvent level.",
+          "Mark the solvent front promptly and measure separated pigment distances."
+        ],
+        "variables": [
+          "Keep solvent mixture, paper or plate and loading method comparable."
+        ],
+        "safety": [
+          "Use eye protection and keep flammable solvent away from ignition sources.",
+          "Follow ventilation and chemical-disposal instructions."
+        ],
+        "analysis": "Calculate Rf values and compare standards run under the same conditions; Rf alone is not universal proof of identity."
+      }
+    },
+    {
+      "id": "calvin-cycle",
+      "unit": "m5",
+      "title": "The Calvin cycle and limiting factors",
+      "spec": "5.2.1",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Explain carbon fixation and interpret photosynthesis experiments.",
+      "notes": [
+        {
+          "title": "Carbon assimilation",
+          "html": "<p>Rubisco catalyses combination of carbon dioxide with RuBP. The unstable six-carbon intermediate forms two molecules of glycerate 3-phosphate. ATP and reduced NADP from light-dependent reactions convert GP to triose phosphate. Most TP regenerates RuBP using ATP; a smaller fraction forms carbohydrates and other organic molecules. The cycle occurs in the stroma and needs light-derived supplies even though light is not directly absorbed by its reactions.</p>"
+        },
+        {
+          "title": "Rates and evidence",
+          "html": "<p>Light intensity, carbon dioxide supply and temperature can limit photosynthesis. Increasing one factor only raises the rate while it is limiting; an apparent plateau may have several causes. Net gas exchange includes respiration, so oxygen uptake or carbon dioxide release in the dark measures different processes from net photosynthesis in light. At the compensation point, photosynthetic carbon dioxide uptake equals respiratory carbon dioxide release, giving zero net exchange.</p>"
+        }
+      ],
+      "keypoints": [
+        "Rubisco fixes carbon dioxide to RuBP.",
+        "ATP and reduced NADP reduce GP.",
+        "Zero net exchange does not mean zero photosynthesis."
+      ],
+      "mistakes": [
+        "The Calvin cycle is not restricted to darkness.",
+        "A plateau alone does not identify which other factor is limiting."
+      ],
+      "checks": [
+        {
+          "q": "Where does the Calvin cycle occur?",
+          "opts": [
+            "Stroma",
+            "Mitochondrial matrix",
+            "Ribosomal A site"
+          ],
+          "a": 0,
+          "why": "Carbon fixation occurs in chloroplast stroma."
+        },
+        {
+          "q": "At the compensation point…",
+          "opts": [
+            "Photosynthesis and respiration balance in net gas exchange",
+            "Both processes stop",
+            "Only respiration occurs"
+          ],
+          "a": 0,
+          "why": "Equal opposing rates give zero net exchange."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why low carbon dioxide supply can reduce carbohydrate synthesis despite bright light.",
+          "m": 3,
+          "ms": [
+            "Less carbon dioxide is available for Rubisco-catalysed fixation.",
+            "Less GP is formed and therefore less TP can be produced.",
+            "Carbon assimilation limits carbohydrate production even if ATP and reduced NADP are available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glycolysis",
+      "unit": "m5",
+      "title": "Respiration: glycolysis and the link reaction",
+      "spec": "5.2.2",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Track carbon and reducing equivalents into aerobic pathways.",
+      "notes": [
+        {
+          "title": "Glycolysis",
+          "html": "<p>Respiration releases energy through controlled metabolic reactions. Glycolysis occurs in the cytoplasm: glucose is phosphorylated using ATP, split into triose phosphates and converted to pyruvate. It yields a net two ATP and two reduced NAD per glucose. ATP arises by substrate-level phosphorylation. Glycolysis does not require oxygen directly, but continued operation requires regeneration of oxidised NAD.</p>"
+        },
+        {
+          "title": "The link reaction",
+          "html": "<p>Under aerobic conditions pyruvate enters the mitochondrial matrix. Oxidative decarboxylation removes carbon dioxide and transfers hydrogen or electrons to NAD; the remaining two-carbon acetate combines with coenzyme A to form acetyl-CoA. Per glucose, two pyruvates generate two acetyl-CoA, two carbon dioxide and two reduced NAD. The link reaction itself does not produce ATP directly.</p>"
+        }
+      ],
+      "keypoints": [
+        "Glycolysis is cytoplasmic.",
+        "Net glycolytic yield is two ATP per glucose.",
+        "The link reaction forms acetyl-CoA and reduced NAD."
+      ],
+      "mistakes": [
+        "Glycolysis does not occur in the mitochondrial matrix.",
+        "The link reaction does not directly generate ATP."
+      ],
+      "checks": [
+        {
+          "q": "How many pyruvate molecules arise from one glucose?",
+          "a": 2,
+          "unit": "",
+          "why": "A six-carbon glucose yields two three-carbon pyruvates.",
+          "tol": 0.01
+        },
+        {
+          "q": "Which is released in the link reaction?",
+          "opts": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Cellulose"
+          ],
+          "a": 0,
+          "why": "Pyruvate is decarboxylated before acetyl-CoA forms."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Summarise the link reaction for one pyruvate molecule.",
+          "m": 3,
+          "ms": [
+            "One carbon dioxide is removed by decarboxylation.",
+            "NAD is reduced during oxidation.",
+            "The two-carbon acetate combines with coenzyme A to form acetyl-CoA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "krebs-oxidative",
+      "unit": "m5",
+      "title": "Krebs cycle and oxidative phosphorylation",
+      "spec": "5.2.2",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Connect reduced coenzymes, electron transport and ATP synthesis.",
+      "notes": [
+        {
+          "title": "Cyclic oxidation",
+          "html": "<p>In the matrix, acetyl-CoA transfers its two-carbon group to four-carbon oxaloacetate, producing citrate. Decarboxylation and dehydrogenation regenerate oxaloacetate. Each turn yields two carbon dioxide, three reduced NAD, one reduced FAD and one ATP equivalent by substrate-level phosphorylation. Two turns occur per glucose. Reduced coenzymes carry electrons to the inner mitochondrial membrane.</p>"
+        },
+        {
+          "title": "Chemiosmotic ATP synthesis",
+          "html": "<p>Electrons pass through carriers and release energy used to pump protons from the matrix to the intermembrane space. Protons return through ATP synthase, driving oxidative phosphorylation. Oxygen is the final electron acceptor and combines with electrons and protons to form water. Without oxygen, electron transport and coenzyme reoxidation stop. Total ATP yield per glucose varies with transport costs, shuttles and proton leak; do not impose a universal fixed total.</p>"
+        }
+      ],
+      "keypoints": [
+        "Krebs cycle regenerates oxaloacetate.",
+        "Oxygen is used directly at the end of electron transport.",
+        "Cristae increase inner-membrane area."
+      ],
+      "mistakes": [
+        "Carbon dioxide is not produced by oxidative phosphorylation itself.",
+        "Reduced NAD is an electron carrier, not ATP."
+      ],
+      "checks": [
+        {
+          "q": "The final electron acceptor in aerobic respiration is…",
+          "opts": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Glucose"
+          ],
+          "a": 0,
+          "why": "Oxygen accepts electrons and protons to form water."
+        },
+        {
+          "q": "How many carbon dioxide molecules are released by two Krebs-cycle turns?",
+          "a": 4,
+          "unit": "",
+          "why": "Each acetyl-CoA gives two carbon dioxide.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why oxygen deprivation reduces ATP production in mitochondria.",
+          "m": 4,
+          "ms": [
+            "Oxygen can no longer accept electrons at the end of the electron-transport chain.",
+            "Electron flow and associated proton pumping stop.",
+            "The proton gradient can no longer be sustained for ATP synthase.",
+            "Reduced coenzymes cannot be reoxidised normally, restricting upstream aerobic pathways."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anaerobic-respirometry",
+      "unit": "m5",
+      "title": "Anaerobic pathways and respirometry",
+      "spec": "5.2.2; 1.1",
+      "paper": [
+        1,
+        3
+      ],
+      "summary": "Measure respiration and interpret respiratory quotient.",
+      "notes": [
+        {
+          "title": "Regenerating NAD",
+          "html": "<p>Without sufficient oxygen, reduced NAD must be reoxidised by alternative pathways so glycolysis continues. In mammals, pyruvate is reduced to lactate. In yeast, pyruvate is decarboxylated to ethanal and then reduced to ethanol, releasing carbon dioxide. Fermentation does not add ATP beyond glycolysis. Respiratory quotient = carbon dioxide produced / oxygen consumed, using equivalent gas quantities; carbohydrate oxidation gives about 1 and lipid oxidation about 0.7 under suitable conditions.</p>"
+        },
+        {
+          "title": "Measuring oxygen uptake",
+          "html": "<p>A respirometer can measure gas-volume decrease after carbon dioxide absorption, estimating oxygen consumption. A control compensates for temperature or pressure changes. Equilibrate before readings and use a manometer scale or gas-volume calibration. Compare rates per unit organism mass when appropriate. A closed system changes gas supply over time, and temperature affects both gas volume and metabolism, so experimental design must separate these effects.</p>"
+        }
+      ],
+      "keypoints": [
+        "Fermentation regenerates NAD for glycolysis.",
+        "Lactate formation does not release carbon dioxide.",
+        "An absorbent lets volume change estimate oxygen uptake."
+      ],
+      "mistakes": [
+        "Fermentation does not yield the full aerobic ATP output.",
+        "A gas-volume fall is not automatically oxygen uptake without accounting for carbon dioxide and temperature."
+      ],
+      "checks": [
+        {
+          "q": "An organism produces 8 cm³ CO₂ while consuming 10 cm³ O₂. Calculate RQ.",
+          "a": 0.8,
+          "unit": "",
+          "why": "RQ = 8 / 10 = 0.8.",
+          "tol": 0.01
+        },
+        {
+          "q": "Why regenerate NAD without oxygen?",
+          "opts": [
+            "To allow glycolysis to continue",
+            "To make oxygen from lactate",
+            "To stop all ATP formation"
+          ],
+          "a": 0,
+          "why": "Glycolysis needs oxidised NAD as an electron acceptor."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three controls in a respirometer comparison at different temperatures.",
+          "m": 3,
+          "ms": [
+            "Allow apparatus and organisms to equilibrate at each temperature.",
+            "Use a suitable control to correct for non-metabolic gas-volume changes.",
+            "Standardise organism mass and time interval, and ensure sufficient oxygen supply."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "PAG 10 / PAG 12 · Respiration investigation",
+        "method": [
+          "Research a suitable organism and justify a temperature range.",
+          "Assemble the approved respirometer with carbon dioxide absorbent separated from organisms.",
+          "Equilibrate in a water bath, then measure movement over fixed intervals.",
+          "Use controls, independent repeats and a calibrated volume conversion."
+        ],
+        "variables": [
+          "Standardise organism mass, developmental stage, measurement time and oxygen availability."
+        ],
+        "safety": [
+          "Use the centre’s approved absorbent precautions and animal-welfare procedure.",
+          "Do not allow organisms to contact corrosive absorbent."
+        ],
+        "analysis": "Calculate oxygen uptake per unit time and mass; compare variation and state the limitations of a closed apparatus."
+      }
+    },
+    {
+      "id": "mutations",
+      "unit": "m6",
+      "title": "Mutation and cellular control",
+      "spec": "6.1.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Predict possible effects of DNA changes on proteins and cells.",
+      "notes": [
+        {
+          "title": "Changes in sequence",
+          "html": "<p>Gene mutations include substitutions, insertions and deletions. A substitution may be silent, missense or introduce a stop codon. An insertion or deletion within a coding region can shift the reading frame unless the number of bases is a multiple of three. Effects depend on the position, gene and changed protein function; not every mutation causes disease or visible change. Chromosome mutations alter larger-scale structure or number.</p>"
+        },
+        {
+          "title": "Cell division and cancer",
+          "html": "<p>Cell-cycle control responds to internal and external signals. Mutations affecting growth regulation, DNA repair or programmed cell death can contribute to tumour formation. Proto-oncogenes normally support regulated growth; inappropriate activation can promote division, while loss of tumour-suppressor function removes restraints. Cancer usually involves several changes and selection among cell lineages rather than one identical mutation in every case.</p>"
+        }
+      ],
+      "keypoints": [
+        "Mutation can alter coding or regulatory sequences.",
+        "Reading-frame effects depend on the number and position of inserted bases.",
+        "Loss of growth regulation can favour tumour development."
+      ],
+      "mistakes": [
+        "Every substitution does not change the amino acid sequence.",
+        "All tumours are not caused by one universal mutation."
+      ],
+      "checks": [
+        {
+          "q": "Deleting one coding base can cause…",
+          "opts": [
+            "A frameshift",
+            "Guaranteed no effect",
+            "A new chromosome in every case"
+          ],
+          "a": 0,
+          "why": "Downstream codon grouping changes."
+        },
+        {
+          "q": "A silent substitution…",
+          "opts": [
+            "Can leave the amino acid unchanged",
+            "Always stops translation",
+            "Deletes the whole gene"
+          ],
+          "a": 0,
+          "why": "Different codons can encode the same amino acid."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why a one-base deletion near the start of a coding region may have a greater effect than a substitution.",
+          "m": 3,
+          "ms": [
+            "The deletion can shift the reading frame.",
+            "Many downstream codons can change and a premature stop may occur.",
+            "A substitution usually affects only one codon and may be silent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gene-regulation",
+      "unit": "m6",
+      "title": "Gene regulation, lac operon and development",
+      "spec": "6.1.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Explain how a shared genome produces different cell types.",
+      "notes": [
+        {
+          "title": "Regulated expression",
+          "html": "<p>Transcription factors bind regulatory DNA and alter transcription. In a simplified lac operon model, a repressor binds the operator and blocks transcription when lactose is absent. A lactose-derived inducer alters repressor binding, allowing transcription of genes for lactose use; glucose availability also affects expression, so induction is not the entire physiological system. Enzyme synthesis can therefore respond to environmental resources.</p>"
+        },
+        {
+          "title": "Differentiation and body plans",
+          "html": "<p>Epigenetic mechanisms, including DNA methylation and histone modification, can influence accessibility without changing base sequence. Differential expression generates specialised cells with different proteins. Homeobox-containing genes encode regulatory proteins involved in developmental patterning; conserved sequences indicate ancient shared developmental mechanisms. Apoptosis is controlled cell removal important in development and tissue maintenance, unlike uncontrolled injury-associated cell death.</p>"
+        }
+      ],
+      "keypoints": [
+        "Gene expression is regulated at several stages.",
+        "Operator and structural genes have different roles.",
+        "Development involves regulated expression and apoptosis."
+      ],
+      "mistakes": [
+        "Differentiated cells do not normally lose all unused genes.",
+        "A homeobox gene is not a direct blueprint for one whole organ acting alone."
+      ],
+      "checks": [
+        {
+          "q": "In the basic lac model, the repressor binds the…",
+          "opts": [
+            "Operator",
+            "Ribosomal peptide bond",
+            "Cell wall"
+          ],
+          "a": 0,
+          "why": "Operator binding inhibits transcription."
+        },
+        {
+          "q": "DNA methylation changes…",
+          "opts": [
+            "Gene regulation without necessarily changing base sequence",
+            "Every DNA base into RNA",
+            "The species instantly"
+          ],
+          "a": 0,
+          "why": "Epigenetic marks influence expression."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain induction of lac structural-gene expression when a suitable inducer is present.",
+          "m": 3,
+          "ms": [
+            "The inducer binds to the repressor and changes its conformation.",
+            "The repressor no longer binds the operator effectively.",
+            "RNA polymerase can transcribe the structural genes under otherwise suitable conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inheritance",
+      "unit": "m6",
+      "title": "Monohybrid, codominant and sex-linked inheritance",
+      "spec": "6.1.2",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Use alleles and probability to predict offspring.",
+      "notes": [
+        {
+          "title": "Alleles and crosses",
+          "html": "<p>Genotype is allele composition; phenotype is the observable result of genotype and environment. Dominance describes the heterozygote phenotype, not allele frequency or biological superiority. In codominance both allelic products are expressed. Set out parental genotypes, gametes and offspring combinations before calculating probabilities. A test cross with a recessive homozygote can help identify an unknown dominant-phenotype genotype.</p>"
+        },
+        {
+          "title": "Sex linkage and pedigrees",
+          "html": "<p>X-linked recessive alleles can be expressed in individuals with only one X chromosome because no matching allele is present on the Y for that locus. An affected father does not transmit his X to sons. Pedigrees supply evidence about possible inheritance models, but small family size and unknown genotypes can make conclusions uncertain. Each fertilisation is a new probabilistic event; a 1:1 prediction does not force every small family to contain equal numbers.</p>"
+        }
+      ],
+      "keypoints": [
+        "Write gametes before offspring.",
+        "Dominance does not mean common.",
+        "Treat offspring ratios as probabilities."
+      ],
+      "mistakes": [
+        "A 25% probability does not guarantee one affected child in four.",
+        "X-linked fathers do not pass their X to sons."
+      ],
+      "checks": [
+        {
+          "q": "In Aa × Aa with complete dominance, what fraction are aa?",
+          "a": 0.25,
+          "unit": "",
+          "why": "One of four equally likely combinations is aa.",
+          "tol": 0.01
+        },
+        {
+          "q": "A codominant heterozygote…",
+          "opts": [
+            "Expresses both allelic products",
+            "Has neither allele",
+            "Always has the recessive phenotype"
+          ],
+          "a": 0,
+          "why": "Both allelic contributions are detectable."
+        }
+      ],
+      "exam": [
+        {
+          "q": "For Aa × aa, predict genotypes and phenotypes under complete dominance.",
+          "m": 3,
+          "ms": [
+            "The first parent produces A and a gametes; the second produces a gametes.",
+            "Expected genotypes are 1 Aa : 1 aa.",
+            "Expected phenotypes are 1 dominant : 1 recessive."
+          ]
+        }
+      ],
+      "sim": "genetics"
+    },
+    {
+      "id": "linkage-epistasis",
+      "unit": "m6",
+      "title": "Dihybrid crosses, linkage and epistasis",
+      "spec": "6.1.2",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Recognise when independent assortment predictions do not apply.",
+      "notes": [
+        {
+          "title": "Two-locus inheritance",
+          "html": "<p>For two unlinked loci, AaBb can produce AB, Ab, aB and ab gametes with equal probability under standard assumptions. A dihybrid cross can yield 9:3:3:1 phenotypes with complete dominance and no interaction. Genes on the same chromosome are linked; crossing over can separate their alleles. A test cross can reveal excess parental combinations over recombinant combinations. Recombination fraction is not interpreted as exceeding 50% for simple linkage mapping.</p>"
+        },
+        {
+          "title": "Gene interactions",
+          "html": "<p>Epistasis occurs when one locus masks or modifies the expression of another. Modified ratios arise from biochemical relationships, not because Mendelian segregation has stopped. Establish the genotype-to-phenotype rules before grouping offspring categories. Use chi-squared only when expected counts and independence are appropriate, and avoid treating a close-looking observed ratio as proof of a particular genetic model.</p>"
+        }
+      ],
+      "keypoints": [
+        "Independent assortment requires appropriate locus relationships.",
+        "Linkage increases parental combinations.",
+        "Epistasis changes phenotype grouping."
+      ],
+      "mistakes": [
+        "A 9:3:3:1 ratio is not universal for two genes.",
+        "Dominance and epistasis describe different relationships."
+      ],
+      "checks": [
+        {
+          "q": "An excess of parental types in a test cross can indicate…",
+          "opts": [
+            "Linkage",
+            "No chromosomes",
+            "A guaranteed mutation in every gamete"
+          ],
+          "a": 0,
+          "why": "Linked alleles tend to remain together unless recombination occurs."
+        },
+        {
+          "q": "There are 40 recombinants among 200 offspring. Calculate recombination percentage.",
+          "a": 20,
+          "unit": "%",
+          "why": "40 / 200 × 100 = 20%.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why two genes on the same chromosome may not produce equal gamete frequencies.",
+          "m": 3,
+          "ms": [
+            "They are linked and tend to pass into the same gamete together.",
+            "Crossing over can create recombinant allele combinations.",
+            "If crossing over between the loci is limited, parental combinations are more frequent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "population-genetics",
+      "unit": "m6",
+      "title": "Hardy–Weinberg, drift and speciation",
+      "spec": "6.1.2",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Calculate allele frequencies and identify assumptions.",
+      "notes": [
+        {
+          "title": "An equilibrium model",
+          "html": "<p>For two alleles, p + q = 1. Under Hardy–Weinberg conditions, genotype frequencies are p² + 2pq + q² = 1. The model assumes a very large randomly mating population with no selection, migration or mutation affecting the locus. If a recessive phenotype uniquely represents aa, its frequency can estimate q², allowing q, p and heterozygote frequency to be calculated. Do not equate the recessive phenotype frequency directly with q.</p>"
+        },
+        {
+          "title": "Population change",
+          "html": "<p>Selection changes allele frequencies through differential reproductive success. Drift is stochastic and can be pronounced after bottlenecks or founder events. Gene flow moves alleles between populations. Isolation reduces gene flow; accumulating differences can create reproductive barriers and speciation. An observed deviation from equilibrium prompts investigation but does not identify the cause without further evidence.</p>"
+        }
+      ],
+      "keypoints": [
+        "Recessive genotype frequency is q² under the model.",
+        "State equilibrium assumptions.",
+        "Drift is strongest in small populations."
+      ],
+      "mistakes": [
+        "Hardy–Weinberg is a null model, not a claim every population is static.",
+        "A recessive allele can be common."
+      ],
+      "checks": [
+        {
+          "q": "The recessive phenotype frequency is 0.09 under Hardy–Weinberg. Calculate q.",
+          "a": 0.3,
+          "unit": "",
+          "why": "q = √0.09 = 0.3.",
+          "tol": 0.01
+        },
+        {
+          "q": "If p = 0.7 and q = 0.3, calculate heterozygote frequency.",
+          "a": 0.42,
+          "unit": "",
+          "why": "2pq = 2 × 0.7 × 0.3 = 0.42.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "A small founder population has different allele frequencies from its source. Explain a mechanism without assuming selection.",
+          "m": 3,
+          "ms": [
+            "The founders are a small non-representative sample of the original gene pool.",
+            "Chance sampling changes allele frequencies.",
+            "This founder effect is a form of genetic drift."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "genome-analysis",
+      "unit": "m6",
+      "title": "Sequencing, PCR and electrophoresis",
+      "spec": "6.1.3",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Explain how molecular techniques answer biological questions.",
+      "notes": [
+        {
+          "title": "Amplifying and separating DNA",
+          "html": "<p>PCR cycles through strand denaturation, primer annealing and extension by a thermostable DNA polymerase. Primers define the amplified region; suitable nucleotides and reaction conditions are needed. Ideal amplification doubles target copies per cycle, but real efficiency declines. Gel electrophoresis separates DNA fragments through a matrix: negatively charged DNA moves towards the positive electrode, with smaller fragments usually moving farther under the same conditions.</p>"
+        },
+        {
+          "title": "Sequencing and interpretation",
+          "html": "<p>DNA sequencing determines base order. Genome comparisons and bioinformatics can identify genes, infer relatedness and investigate variation; annotation requires evidence and does not make every sequence difference functionally important. DNA profiling compares variable regions and can support relatedness or identity analysis, but match probability, contamination and sampling context matter. Ethical questions include consent, privacy and ownership of genetic information.</p>"
+        }
+      ],
+      "keypoints": [
+        "PCR needs primers and a thermostable polymerase.",
+        "DNA migrates towards the positive electrode.",
+        "Sequence similarity must be interpreted in context."
+      ],
+      "mistakes": [
+        "PCR copies a target region, not a whole organism.",
+        "A DNA-profile match is not by itself proof of how material arrived."
+      ],
+      "checks": [
+        {
+          "q": "Starting with one target molecule, ideal doubling occurs for five cycles. How many copies result?",
+          "a": 32,
+          "unit": "copies",
+          "why": "2⁵ = 32.",
+          "tol": 0.01
+        },
+        {
+          "q": "Which DNA fragments usually travel farther in the same gel run?",
+          "opts": [
+            "Smaller fragments",
+            "Larger fragments always",
+            "Only circular chromosomes"
+          ],
+          "a": 0,
+          "why": "Smaller fragments move through the matrix more readily."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain the three main stages of a PCR cycle.",
+          "m": 3,
+          "ms": [
+            "Heating separates complementary DNA strands.",
+            "Cooling allows primers to anneal to target sequences.",
+            "Thermostable polymerase extends primers using free nucleotides."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "PAG 6 · Electrophoresis interpretation",
+        "method": [
+          "Load approved DNA samples and a size marker into gel wells.",
+          "Run the gel using the specified buffer, voltage and direction.",
+          "Visualise bands with the approved stain and imaging method.",
+          "Compare migration distances with the marker."
+        ],
+        "variables": [
+          "Keep gel composition, run time and electrical conditions comparable."
+        ],
+        "safety": [
+          "Use electrical equipment and stains only under supervision.",
+          "Follow local precautions for imaging light sources and chemical disposal."
+        ],
+        "analysis": "Infer relative fragment sizes and discuss resolution, contamination and uncertain matches."
+      }
+    },
+    {
+      "id": "genetic-engineering",
+      "unit": "m6",
+      "title": "Recombinant DNA and genome modification",
+      "spec": "6.1.3",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Follow gene isolation, transfer and selection.",
+      "notes": [
+        {
+          "title": "Building a recombinant vector",
+          "html": "<p>A desired coding sequence can be obtained from DNA or from mRNA using reverse transcriptase to make cDNA. Restriction enzymes can cut DNA at specific sequences; compatible ends allow a gene to join a vector using DNA ligase. A vector needs appropriate replication and expression features, such as an origin, promoter and marker. Transform host cells and use selection and screening to identify suitable clones, rather than assuming every exposed cell receives the desired construct.</p>"
+        },
+        {
+          "title": "Applications and evaluation",
+          "html": "<p>Recombinant microbes can produce human proteins such as insulin when the construct and expression system are suitable. Genome editing can target specific sequences but still requires testing for unintended changes, delivery efficiency and functional effects. Agricultural modifications may alter resistance or nutritional traits. Evaluate benefits, gene flow, ecological effects, animal welfare, access and consent using evidence specific to the application.</p>"
+        }
+      ],
+      "keypoints": [
+        "Ligase joins DNA; restriction enzymes cut it.",
+        "cDNA lacks the original eukaryotic introns removed from mRNA.",
+        "Selection and screening are necessary."
+      ],
+      "mistakes": [
+        "A selectable marker alone does not prove correct expression of the desired protein.",
+        "All genetic modification is not one technique with one universal risk."
+      ],
+      "checks": [
+        {
+          "q": "Which enzyme joins DNA fragments?",
+          "opts": [
+            "DNA ligase",
+            "Amylase",
+            "Carbonic anhydrase"
+          ],
+          "a": 0,
+          "why": "Ligase forms phosphodiester bonds."
+        },
+        {
+          "q": "Why use cDNA for bacterial expression of some human genes?",
+          "opts": [
+            "It lacks introns removed from mature mRNA",
+            "It has no bases",
+            "It automatically includes every bacterial promoter"
+          ],
+          "a": 0,
+          "why": "Bacteria generally cannot splice eukaryotic introns as human cells do."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three features needed to express a human protein gene in a bacterial host.",
+          "m": 3,
+          "ms": [
+            "A suitable coding sequence, often cDNA without introns.",
+            "A vector with bacterial replication and appropriate promoter features.",
+            "A method to introduce the vector and identify transformed cells with the desired construct."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloning-plants",
+      "unit": "m6",
+      "title": "Plant cloning and tissue culture",
+      "spec": "6.2.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Explain natural and artificial vegetative propagation.",
+      "notes": [
+        {
+          "title": "Natural and artificial clones",
+          "html": "<p>A clone is a group of genetically very similar cells or organisms derived from one ancestor by asexual processes, allowing for new mutations. Plants clone naturally through structures such as runners and tubers. Cuttings preserve a useful genotype and can be encouraged to root with suitable hormones. Asexual propagation rapidly multiplies desirable traits but produces limited genetic variation and can spread infection from parent stock.</p>"
+        },
+        {
+          "title": "Micropropagation",
+          "html": "<p>An explant is surface-sterilised and grown aseptically on nutrient medium with suitable hormones. Cells can form callus, shoots and roots depending on species and hormone conditions. Plantlets are acclimatised before transfer to soil. Totipotency underlies regeneration, although not every cell regenerates under every condition. Tissue culture can support rapid multiplication and conservation, but cost, contamination and uniform disease susceptibility must be considered.</p>"
+        }
+      ],
+      "keypoints": [
+        "Clonal plants preserve an existing genotype.",
+        "Asepsis limits contamination.",
+        "Hormone balance influences development."
+      ],
+      "mistakes": [
+        "Clones are not immune to new mutations.",
+        "Tissue culture does not guarantee every regenerated plant is disease-free."
+      ],
+      "checks": [
+        {
+          "q": "What is an explant?",
+          "opts": [
+            "A piece of plant tissue used to start culture",
+            "A mature antibody",
+            "A bacterial plasmid only"
+          ],
+          "a": 0,
+          "why": "An explant provides starting tissue for plant culture."
+        },
+        {
+          "q": "A major risk of genetic uniformity is…",
+          "opts": [
+            "Shared susceptibility to a pathogen",
+            "Guaranteed improved resistance to everything",
+            "No requirement for water"
+          ],
+          "a": 0,
+          "why": "A pathogen able to infect one genotype may affect the whole crop."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Describe three stages of micropropagation after choosing a suitable parent plant.",
+          "m": 3,
+          "ms": [
+            "Take and surface-sterilise an explant using an approved protocol.",
+            "Culture aseptically on suitable nutrient and hormone media to generate shoots and roots.",
+            "Acclimatise plantlets before transfer to soil."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloning-animals",
+      "unit": "m6",
+      "title": "Animal cloning and stem-cell applications",
+      "spec": "6.2.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Evaluate embryo splitting and nuclear transfer.",
+      "notes": [
+        {
+          "title": "Cloning routes",
+          "html": "<p>Embryo splitting separates early embryonic cells into groups capable of development under suitable conditions. Somatic-cell nuclear transfer places a differentiated-cell nucleus into an enucleated egg, which is stimulated and may develop into an embryo. A resulting animal mainly shares nuclear DNA with the nucleus donor, but mitochondrial DNA derives largely from the egg donor. Developmental environment and epigenetic changes mean a clone is not an identical life-history copy.</p>"
+        },
+        {
+          "title": "Potential and limitations",
+          "html": "<p>Cloning may preserve valuable genotypes or support research; therapeutic approaches investigate patient-matched cells. Stem-cell use raises questions about tumour risk, differentiation control, immune compatibility, embryo use and welfare. Low success rates and developmental abnormalities matter when evaluating animal cloning. Distinguish reproductive cloning of an organism from culturing a lineage of cells.</p>"
+        }
+      ],
+      "keypoints": [
+        "Nuclear transfer uses an enucleated egg.",
+        "Nuclear and mitochondrial inheritance can differ.",
+        "Evaluate welfare and evidence of effectiveness."
+      ],
+      "mistakes": [
+        "A clone does not inherit the donor’s memories.",
+        "A shared nucleus does not ensure identical phenotype in every environment."
+      ],
+      "checks": [
+        {
+          "q": "In nuclear transfer, the egg nucleus is…",
+          "opts": [
+            "Removed",
+            "Duplicated with every other nucleus",
+            "Converted to a plasmid"
+          ],
+          "a": 0,
+          "why": "Enucleation avoids retaining the egg’s nuclear genome."
+        },
+        {
+          "q": "Most mitochondrial DNA in a nuclear-transfer clone derives from…",
+          "opts": [
+            "Egg donor",
+            "Nucleus donor necessarily",
+            "Neither donor"
+          ],
+          "a": 0,
+          "why": "Mitochondria are present in the egg cytoplasm."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why a nuclear-transfer clone may not be identical in every respect to the nucleus donor.",
+          "m": 3,
+          "ms": [
+            "Mitochondrial DNA comes mainly from the egg donor.",
+            "Developmental environment can affect phenotype.",
+            "Epigenetic reprogramming and new mutations can alter gene expression or sequence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotechnology",
+      "unit": "m6",
+      "title": "Microbial biotechnology and immobilised enzymes",
+      "spec": "6.2.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Connect aseptic culture, growth phases and industrial control.",
+      "notes": [
+        {
+          "title": "Culturing and scale-up",
+          "html": "<p>Microorganisms can produce enzymes, foods, medicines and other useful products. Aseptic technique reduces contamination by competitors or pathogens. Batch cultures pass through lag, exponential, stationary and decline phases as conditions change; continuous cultures replace nutrients and remove culture at controlled rates. Industrial vessels regulate temperature, pH, oxygen, nutrients and mixing, balancing yield with contamination risk and cost. Primary and secondary metabolites may be produced at different growth stages.</p>"
+        },
+        {
+          "title": "Immobilised enzymes",
+          "html": "<p>Enzymes can be attached to supports or trapped in matrices. Immobilisation allows reuse, easier product separation and continuous processing, and can improve stability. Limitations include diffusion restrictions, altered activity and setup cost. Examples include lactase for lactose-reduced milk and glucose isomerase for fructose-containing syrups. Compare output under matched conditions rather than assuming an immobilised enzyme is always faster.</p>"
+        }
+      ],
+      "keypoints": [
+        "Asepsis protects culture purity.",
+        "Growth phases reflect changing resources and wastes.",
+        "Immobilisation supports reuse but may restrict diffusion."
+      ],
+      "mistakes": [
+        "Stationary phase means no net growth, not that every cell has stopped metabolism.",
+        "A fermenter can support aerobic production despite its name."
+      ],
+      "checks": [
+        {
+          "q": "During stationary phase, population size is roughly stable because…",
+          "opts": [
+            "Cell production and loss are approximately balanced",
+            "Every cell is dead",
+            "No metabolites exist"
+          ],
+          "a": 0,
+          "why": "Resource limitation and waste accumulation affect net growth."
+        },
+        {
+          "q": "A benefit of immobilising lactase is…",
+          "opts": [
+            "Easier separation and reuse",
+            "Guaranteed unlimited speed",
+            "Removal of every substrate need"
+          ],
+          "a": 0,
+          "why": "The enzyme remains associated with its support."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain four controls needed in an aerobic industrial microbial culture.",
+          "m": 4,
+          "ms": [
+            "Control temperature to maintain enzyme activity without damaging cells.",
+            "Control pH to maintain suitable cellular enzyme conditions.",
+            "Supply oxygen and mix to support aerobic respiration throughout the culture.",
+            "Maintain aseptic conditions to prevent contamination and loss of product purity."
+          ]
+        }
+      ],
+      "practical": {
+        "title": "PAG 7 · Aseptic microbial culture",
+        "method": [
+          "Use only an approved non-pathogenic organism and sterile materials.",
+          "Label and prepare cultures using the centre’s aseptic protocol.",
+          "Incubate under approved conditions and measure growth using a suitable method.",
+          "Use uninoculated controls and independent cultures."
+        ],
+        "variables": [
+          "Control medium, inoculum, incubation time and temperature."
+        ],
+        "safety": [
+          "Do not culture unknown environmental or clinical samples without approval.",
+          "Follow local sealing, incubation and sterilisation procedures."
+        ],
+        "analysis": "Plot growth data, identify lag and exponential regions, and distinguish optical density from viable-cell counts."
+      }
+    },
+    {
+      "id": "ecosystems",
+      "unit": "m6",
+      "title": "Ecosystems, succession and nutrient cycles",
+      "spec": "6.3.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Explain interactions and material recycling.",
+      "notes": [
+        {
+          "title": "Dynamic communities",
+          "html": "<p>An ecosystem includes organisms and their abiotic environment. Biotic interactions and abiotic factors influence distribution and abundance. A niche includes an organism’s resource use and interactions, rather than simply its address. Succession changes communities over time as colonisers modify conditions. Primary succession begins without an established soil community; secondary succession follows disturbance where soil or biological legacies remain. Succession need not follow one inevitable path in every ecosystem.</p>"
+        },
+        {
+          "title": "Carbon and nitrogen cycles",
+          "html": "<p>Photosynthesis fixes carbon; feeding transfers it and respiration returns carbon dioxide. Decomposers release carbon and mineral nutrients. Nitrogen fixation converts atmospheric nitrogen into biologically available forms, ammonification releases ammonium from organic matter, nitrification oxidises ammonium to nitrite and nitrate, and denitrification returns nitrogen gas under suitable low-oxygen conditions. Human fertiliser use and combustion can alter cycles and ecosystem function.</p>"
+        }
+      ],
+      "keypoints": [
+        "A niche describes ecological role and resource use.",
+        "Matter cycles; energy is transferred and dissipated.",
+        "Name each nitrogen transformation correctly."
+      ],
+      "mistakes": [
+        "Plants do not generally absorb atmospheric nitrogen directly for protein synthesis.",
+        "Succession is not guaranteed to produce the same climax community everywhere."
+      ],
+      "checks": [
+        {
+          "q": "Which process converts nitrate to nitrogen gas?",
+          "opts": [
+            "Denitrification",
+            "Nitrification",
+            "Photosynthesis"
+          ],
+          "a": 0,
+          "why": "Denitrification returns nitrogen to the atmosphere."
+        },
+        {
+          "q": "Which normally begins after disturbance with soil remaining?",
+          "opts": [
+            "Secondary succession",
+            "Primary succession by definition",
+            "DNA replication"
+          ],
+          "a": 0,
+          "why": "Soil and biological legacies distinguish secondary succession."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain the role of microorganisms in returning nitrogen from dead organisms to the atmosphere.",
+          "m": 3,
+          "ms": [
+            "Decomposers release ammonium through ammonification.",
+            "Nitrifying microorganisms convert ammonium through nitrite to nitrate.",
+            "Denitrifying microorganisms convert nitrate to nitrogen gas under suitable conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "unit": "m6",
+      "title": "Energy flow, productivity and efficiency",
+      "spec": "6.3.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Calculate transfers without confusing energy with recycled matter.",
+      "notes": [
+        {
+          "title": "Production and trophic transfer",
+          "html": "<p>Gross primary productivity is the rate at which producers fix energy into organic molecules. Net primary productivity = GPP − producer respiratory losses, leaving production available for growth and consumers. Consumers lose material through egestion and excretion and dissipate energy through respiration. Only a fraction of available production passes to the next trophic level. State whether data describe energy, biomass or a rate and keep units consistent.</p>"
+        },
+        {
+          "title": "Pyramids and measurement",
+          "html": "<p>Pyramids of biomass describe standing biomass, not necessarily production rate; rapidly reproducing aquatic producers can support greater consumer standing biomass. Energy-flow pyramids based on comparable areas and intervals cannot show net energy creation. Transfer efficiency = useful transfer / available input × 100. Ecosystem energy flow depends on time, area, season and food-web structure, so a universal 10% value should not replace calculations from supplied data.</p>"
+        }
+      ],
+      "keypoints": [
+        "NPP = GPP − respiration.",
+        "Biomass stock differs from productivity rate.",
+        "Calculate efficiency from defined numerator and denominator."
+      ],
+      "mistakes": [
+        "Energy is not recycled through ecosystems like carbon atoms.",
+        "Not all transfer efficiencies equal 10%."
+      ],
+      "checks": [
+        {
+          "q": "GPP is 2400 and producer respiration is 900 kJ m⁻² yr⁻¹. Calculate NPP.",
+          "a": 1500,
+          "unit": "kJ m⁻² yr⁻¹",
+          "why": "2400 − 900 = 1500.",
+          "tol": 0.01
+        },
+        {
+          "q": "Consumers receive 180 from 1500 kJ m⁻² yr⁻¹ of producer NPP. Calculate transfer efficiency.",
+          "a": 12,
+          "unit": "%",
+          "why": "180 / 1500 × 100 = 12%.",
+          "tol": 0.01
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain three reasons why not all producer production becomes herbivore production.",
+          "m": 3,
+          "ms": [
+            "Not all producer material is eaten.",
+            "Some eaten material is not assimilated and is egested.",
+            "Assimilated energy supports respiration and is dissipated, leaving less for growth."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "populations",
+      "unit": "m6",
+      "title": "Population interactions and sustainable management",
+      "spec": "6.3.2",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Interpret limiting factors and management trade-offs.",
+      "notes": [
+        {
+          "title": "Population regulation",
+          "html": "<p>Population size depends on births, deaths, immigration and emigration. Resources, competition, predation, disease and abiotic conditions can limit growth. Logistic growth models include carrying capacity, but real carrying capacity changes with environment. Predator and prey abundance may oscillate with a time lag, yet observational cycles do not prove predation is the sole driver. Interspecific competition acts between species; intraspecific competition acts within one species.</p>"
+        },
+        {
+          "title": "Sustainable use",
+          "html": "<p>Conservation manages biodiversity while sustainability aims to maintain resources and ecosystem function over time. Fisheries and forestry management can use size limits, quotas, closed seasons, protected areas, selective harvesting and replanting, but effectiveness depends on enforcement and evidence. Integrated pest management combines monitoring, biological and cultural methods with targeted chemical use. Evaluate ecological, economic and social outcomes and unintended effects rather than assuming one technique solves every setting.</p>"
+        }
+      ],
+      "keypoints": [
+        "Include migration in population change.",
+        "Carrying capacity is conditional, not fixed forever.",
+        "Management needs monitoring and evidence."
+      ],
+      "mistakes": [
+        "A correlation in predator and prey counts does not prove a single cause.",
+        "Maximum short-term harvest is not automatically sustainable."
+      ],
+      "checks": [
+        {
+          "q": "A population starts at 200, with 35 births, 20 deaths, 10 immigrants and 5 emigrants. Find the final size.",
+          "a": 220,
+          "unit": "",
+          "why": "200 + 35 − 20 + 10 − 5 = 220.",
+          "tol": 0.01
+        },
+        {
+          "q": "Competition between members of the same species is…",
+          "opts": [
+            "Intraspecific",
+            "Interspecific",
+            "Translation"
+          ],
+          "a": 0,
+          "why": "Intraspecific competition occurs within a species."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Explain why a fishing quota should be reviewed regularly.",
+          "m": 3,
+          "ms": [
+            "Birth, growth, death and recruitment rates can change.",
+            "Environmental conditions and food-web interactions alter population recovery.",
+            "Updated monitoring is needed to keep harvest below a level that depletes the stock."
+          ]
+        }
+      ],
+      "sim": "population"
+    },
+    {
+      "id": "conservation",
+      "unit": "m6",
+      "title": "Conservation, biodiversity and evidence",
+      "spec": "6.3.2; 4.2.1",
+      "paper": [
+        2,
+        3
+      ],
+      "summary": "Evaluate in-situ and ex-situ strategies with explicit goals.",
+      "notes": [
+        {
+          "title": "Protecting diversity",
+          "html": "<p>In-situ conservation protects populations within their habitats and can maintain ecological relationships and ongoing selection. Ex-situ methods include seed banks, captive breeding and stored genetic material, providing insurance or reintroduction opportunities. Seed storage conditions must match species biology, and captive programmes must manage genetic diversity and welfare. Neither approach alone replaces the other in every situation.</p>"
+        },
+        {
+          "title": "Evaluating success",
+          "html": "<p>Set measurable goals such as population recovery, habitat connectivity, genetic diversity or restored ecosystem function. Corridors may reduce isolation and support gene flow but can also spread disease or invasive species. Small populations face inbreeding and drift, while reintroduction requires suitable habitat and threat reduction. Compare outcomes over realistic timescales, acknowledge uncertainty and consider stakeholder costs and benefits. Conservation priorities involve both evidence and value judgments.</p>"
+        }
+      ],
+      "keypoints": [
+        "In-situ protection retains ecological context.",
+        "Ex-situ programmes need genetic management.",
+        "Measure outcomes against stated goals."
+      ],
+      "mistakes": [
+        "Protecting individuals alone does not necessarily restore a functioning habitat.",
+        "Captive breeding success does not guarantee successful release."
+      ],
+      "checks": [
+        {
+          "q": "Which is an ex-situ strategy?",
+          "opts": [
+            "Seed banking",
+            "Protecting an existing wild habitat",
+            "A natural predator–prey interaction"
+          ],
+          "a": 0,
+          "why": "Seeds are stored outside their natural habitat."
+        },
+        {
+          "q": "Why manage relatedness in captive breeding?",
+          "opts": [
+            "To limit inbreeding and retain diversity",
+            "To ensure every offspring is genetically identical",
+            "To stop meiosis"
+          ],
+          "a": 0,
+          "why": "Genetic management reduces inbreeding and diversity loss."
+        }
+      ],
+      "exam": [
+        {
+          "q": "Evaluate habitat corridors using two potential benefits and one limitation.",
+          "m": 3,
+          "ms": [
+            "They can allow movement between isolated populations.",
+            "This can support gene flow and recolonisation.",
+            "They can also facilitate spread of pathogens or invasive species, so monitoring and context matter."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "OCR Biology A H420 qualification and current specification",
+      "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/biology-a-h020-h420-from-2015/"
+    },
+    {
+      "title": "OCR H420 specification, version 4.1 (April 2026)",
+      "url": "https://www.ocr.org.uk/Images/687834-download-a-level-specification.pdf"
+    },
+    {
+      "title": "OCR H420 assessment structure",
+      "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/biology-a-h020-h420-from-2015/specification-at-a-glance/"
+    },
+    {
+      "title": "OCR practical activities support guide",
+      "url": "https://www.ocr.org.uk/Images/597719-practical-activities-support-guide.pdf"
+    }
+  ]
+}

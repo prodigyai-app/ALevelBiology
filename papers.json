@@ -1,0 +1,1453 @@
+[
+  {
+    "id": "ocr-bio-set1-p1",
+    "title": "Set 1 · Biological processes",
+    "subject": "Biology",
+    "paper": 1,
+    "tier": "A Level",
+    "minutes": 135,
+    "marks": 100,
+    "coverage": [
+      "Modules 1, 2, 3 and 5",
+      "15 multiple-choice marks and 85 structured marks"
+    ],
+    "questions": [
+      {
+        "title": "Section A · Multiple choice 1",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which organelle normally modifies proteins received from rough ER?",
+            "m": 1,
+            "ms": [
+              "B: Golgi apparatus."
+            ],
+            "opts": [
+              "Nucleolus",
+              "Golgi apparatus",
+              "Centriole",
+              "Cell wall"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 2",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which cell component is found in a typical bacterium?",
+            "m": 1,
+            "ms": [
+              "C: 70S ribosomes."
+            ],
+            "opts": [
+              "80S cytosolic ribosomes",
+              "Nuclear envelope",
+              "70S ribosomes",
+              "Mitochondria"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 3",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "A cell image is 12 mm wide and the cell is 30 µm wide. What is magnification?",
+            "m": 1,
+            "ms": [
+              "C: ×400."
+            ],
+            "opts": [
+              "×0.4",
+              "×40",
+              "×400",
+              "×4000"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 4",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which reaction forms a peptide bond?",
+            "m": 1,
+            "ms": [
+              "A: Condensation between amino acids."
+            ],
+            "opts": [
+              "Condensation between amino acids",
+              "Hydrolysis of starch",
+              "Reduction of NAD",
+              "Photolysis"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 5",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which feature distinguishes cellulose from amylose?",
+            "m": 1,
+            "ms": [
+              "A: It contains β-glucose."
+            ],
+            "opts": [
+              "It contains β-glucose",
+              "It contains amino acids",
+              "It contains ester bonds",
+              "It is a disaccharide"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 6",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which change directly raises facilitated diffusion rate before carrier saturation?",
+            "m": 1,
+            "ms": [
+              "A: A steeper substrate gradient."
+            ],
+            "opts": [
+              "A steeper substrate gradient",
+              "Removing all carriers",
+              "Reversing every gradient",
+              "Removing substrate"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 7",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which enzyme adds complementary DNA nucleotides during replication?",
+            "m": 1,
+            "ms": [
+              "B: DNA polymerase."
+            ],
+            "opts": [
+              "Helicase",
+              "DNA polymerase",
+              "Amylase",
+              "ATP synthase"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 8",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "What separates in mitotic anaphase?",
+            "m": 1,
+            "ms": [
+              "B: Sister chromatids."
+            ],
+            "opts": [
+              "Homologous pairs only",
+              "Sister chromatids",
+              "Ribosomal subunits only",
+              "Sucrose molecules"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 9",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which factor shifts an adult haemoglobin dissociation curve to the right?",
+            "m": 1,
+            "ms": [
+              "A: Higher carbon dioxide concentration."
+            ],
+            "opts": [
+              "Higher carbon dioxide concentration",
+              "Lower tissue respiration",
+              "Lower temperature only",
+              "Lower acidity"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 10",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which event initiates the normal cardiac electrical cycle?",
+            "m": 1,
+            "ms": [
+              "B: SAN excitation."
+            ],
+            "opts": [
+              "AV-node delay",
+              "SAN excitation",
+              "Semilunar-valve closure",
+              "Ventricular filling alone"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 11",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which process does a shoot potometer directly estimate?",
+            "m": 1,
+            "ms": [
+              "A: Water uptake."
+            ],
+            "opts": [
+              "Water uptake",
+              "Glucose loading",
+              "Carbon dioxide fixation",
+              "Root pressure only"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 12",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Where is most urea produced?",
+            "m": 1,
+            "ms": [
+              "C: Liver."
+            ],
+            "opts": [
+              "Bladder",
+              "Kidney collecting duct",
+              "Liver",
+              "Lung"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 13",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which event depolarises an axon during the action-potential upstroke?",
+            "m": 1,
+            "ms": [
+              "A: Sodium entry."
+            ],
+            "opts": [
+              "Sodium entry",
+              "Sodium exit only",
+              "Potassium entry only",
+              "Chlorophyll excitation"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 14",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "What is the final electron acceptor in aerobic respiration?",
+            "m": 1,
+            "ms": [
+              "B: Oxygen."
+            ],
+            "opts": [
+              "Glucose",
+              "Oxygen",
+              "NADH",
+              "Carbon dioxide"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 15",
+        "topic": "Modules 1, 2, 3 and 5",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which process produces ATP without reduced NADP or oxygen in a chloroplast?",
+            "m": 1,
+            "ms": [
+              "A: Cyclic photophosphorylation."
+            ],
+            "opts": [
+              "Cyclic photophosphorylation",
+              "Photolysis alone",
+              "Calvin-cycle carbon fixation",
+              "Glycolysis"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "A secretory cell and an enzyme investigation",
+        "stem": "<p>A student studies enzyme-secreting cells. A cell measures 28 graticule divisions; calibration shows 10 divisions represent 15 µm. An enzyme from the cells is tested at substrate concentrations of 1, 2, 4 and 8 mmol dm⁻³. Mean initial rates are 2.0, 3.5, 5.0 and 5.2 arbitrary units min⁻¹ respectively, using the same enzyme concentration.</p>",
+        "topic": "Cell structure; microscopy; enzyme rates",
+        "parts": [
+          {
+            "q": "Calculate the cell length in µm and explain why the calibration must be repeated after changing the objective.",
+            "m": 3,
+            "ms": [
+              "One division represents 15/10 = 1.5 µm.",
+              "The cell is 28 × 1.5 = 42 µm long.",
+              "Changing objective magnification changes the specimen length represented by each division."
+            ],
+            "answer": 42,
+            "unit": "µm"
+          },
+          {
+            "q": "Explain three structural adaptations expected in a protein-secreting cell.",
+            "m": 3,
+            "ms": [
+              "Extensive rough ER with ribosomes synthesises proteins.",
+              "A developed Golgi apparatus modifies and packages proteins.",
+              "Many mitochondria provide ATP for synthesis and vesicle movement."
+            ]
+          },
+          {
+            "q": "Explain the initial-rate pattern as substrate concentration increases.",
+            "m": 3,
+            "ms": [
+              "At low concentration, more substrate increases successful enzyme–substrate encounters.",
+              "At high concentration most active sites are occupied.",
+              "With fixed enzyme concentration, substrate is no longer the main limiting factor and rate approaches a maximum."
+            ]
+          },
+          {
+            "q": "Describe three improvements to the validity or reliability of the enzyme comparison.",
+            "m": 3,
+            "ms": [
+              "Use a buffer to keep pH constant.",
+              "Use a controlled water bath to maintain temperature.",
+              "Use independent repeats and compare initial gradients with a measure of spread."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Replication and dividing root cells",
+        "stem": "<p>A root-tip sample contains 240 cells, including 36 in mitosis. The organism has a diploid chromosome number of 12. A template DNA segment is TAC GGA TTT.</p>",
+        "topic": "DNA replication; transcription; mitosis",
+        "parts": [
+          {
+            "q": "Calculate the mitotic index and state one assumption needed to use it to estimate the fraction of cell-cycle time spent in mitosis. Give the mitotic index as a decimal.",
+            "m": 3,
+            "ms": [
+              "Mitotic index = 36/240.",
+              "The index is 0.15 or 15%.",
+              "The sampled population is representative and approximately steady-state with comparable cell-cycle behaviour."
+            ],
+            "answer": 0.15
+          },
+          {
+            "q": "Write the complementary mRNA sequence and explain why replication is described as semi-conservative.",
+            "m": 3,
+            "ms": [
+              "The mRNA sequence is AUG CCU AAA.",
+              "Each original DNA strand acts as a template for a new strand.",
+              "Each resulting DNA double helix contains one old and one new strand."
+            ]
+          },
+          {
+            "q": "Compare mitosis with meiosis for this organism.",
+            "m": 4,
+            "ms": [
+              "Mitosis maintains 12 chromosomes in each daughter nucleus.",
+              "Normal meiosis produces haploid nuclei with six chromosomes.",
+              "Mitosis involves one nuclear division whereas meiosis involves two after one replication.",
+              "Meiosis includes homologous pairing and crossing over that contribute to variation."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Exercise, circulation and gas exchange",
+        "stem": "<p>An athlete has heart rate 72 min⁻¹ and stroke volume 75 cm³ at rest. During exercise these become 150 min⁻¹ and 110 cm³. At an oxygen partial pressure of 5 kPa, haemoglobin saturation is 75% in one condition and 60% in a condition with higher carbon dioxide.</p>",
+        "topic": "Cardiac output; haemoglobin; exchange surfaces",
+        "parts": [
+          {
+            "q": "Calculate cardiac output during exercise in dm³ min⁻¹ and its increase from rest.",
+            "m": 3,
+            "ms": [
+              "Exercise output = 150 × 110 = 16 500 cm³ min⁻¹ = 16.5 dm³ min⁻¹.",
+              "Rest output = 72 × 75 = 5400 cm³ min⁻¹ = 5.4 dm³ min⁻¹.",
+              "The increase is 11.1 dm³ min⁻¹."
+            ]
+          },
+          {
+            "q": "Use the saturation data to explain the effect of higher carbon dioxide on oxygen delivery.",
+            "m": 3,
+            "ms": [
+              "At the same partial pressure saturation falls by 15 percentage points.",
+              "Higher carbon dioxide lowers haemoglobin affinity, shifting the curve right.",
+              "This promotes unloading of oxygen in actively respiring tissues."
+            ]
+          },
+          {
+            "q": "Explain how three alveolar features maintain rapid oxygen uptake.",
+            "m": 3,
+            "ms": [
+              "Large total surface area permits more simultaneous diffusion.",
+              "Thin alveolar and capillary barriers reduce diffusion distance.",
+              "Ventilation and perfusion maintain the concentration gradient."
+            ]
+          },
+          {
+            "q": "Explain coordinated ventricular excitation and contraction.",
+            "m": 4,
+            "ms": [
+              "Excitation is initiated at the sinoatrial node and spreads through atria.",
+              "The atrioventricular node delays transmission until after atrial contraction.",
+              "The bundle of His conducts excitation towards the apex.",
+              "Purkyne tissue spreads excitation so ventricles contract from the apex upwards."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Water and assimilate transport in a plant",
+        "stem": "<p>A potometer capillary has cross-sectional area 0.40 mm². A bubble moves 60 mm in 5 minutes. The experiment is repeated with a fan directed at the shoot. The same plant exports sucrose from mature leaves to growing roots.</p>",
+        "topic": "Transpiration; xylem; phloem",
+        "parts": [
+          {
+            "q": "Calculate water uptake rate in mm³ min⁻¹ and give one reason why it need not exactly equal transpiration rate.",
+            "m": 3,
+            "ms": [
+              "Volume = 0.40 × 60 = 24 mm³.",
+              "Rate = 24/5 = 4.8 mm³ min⁻¹.",
+              "Some absorbed water is retained for growth or used in metabolism, so uptake is a proxy."
+            ],
+            "answer": 4.8,
+            "unit": "mm³ min⁻¹"
+          },
+          {
+            "q": "Explain why the fan may increase the measured rate if other variables and stomatal opening remain similar.",
+            "m": 3,
+            "ms": [
+              "Moving air removes the humid boundary layer.",
+              "This steepens the water-vapour gradient between leaf and air.",
+              "Faster diffusion increases evaporation and water loss."
+            ]
+          },
+          {
+            "q": "Explain how mature leaves supply sucrose to roots through phloem, using an apoplastic loading model.",
+            "m": 6,
+            "ms": [
+              "Companion-cell proton pumps use ATP to establish a proton gradient.",
+              "Proton–sucrose cotransport helps load sucrose at the source.",
+              "Sucrose accumulation lowers sieve-tube water potential.",
+              "Water enters by osmosis and raises hydrostatic pressure.",
+              "A pressure gradient drives bulk flow towards the sink.",
+              "Unloading and use of sucrose at roots help maintain the gradient."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Kidney regulation during dehydration",
+        "stem": "<p>After prolonged exercise without drinking, an individual has a lower blood water potential and a smaller volume of more concentrated urine. The individual has normal kidney function.</p>",
+        "topic": "Excretion; ultrafiltration; ADH",
+        "parts": [
+          {
+            "q": "Explain why glomerular filtrate contains glucose but very little large plasma protein.",
+            "m": 3,
+            "ms": [
+              "High hydrostatic pressure drives water and small solutes across the filtration barrier.",
+              "Glucose is small enough to cross.",
+              "The barrier restricts most large proteins and blood cells."
+            ]
+          },
+          {
+            "q": "Explain four steps linking reduced blood water potential to concentrated urine.",
+            "m": 4,
+            "ms": [
+              "Hypothalamic osmoreceptors detect the lower water potential.",
+              "ADH release from the posterior pituitary increases.",
+              "Aquaporin insertion increases collecting-duct water permeability.",
+              "More water returns to blood by osmosis down the medullary gradient, producing a smaller volume of more concentrated urine."
+            ]
+          },
+          {
+            "q": "Explain how liver metabolism and kidney function together remove excess amino nitrogen.",
+            "m": 4,
+            "ms": [
+              "Excess amino acids are deaminated in the liver.",
+              "The amino groups generate ammonia.",
+              "The liver converts toxic ammonia to less toxic urea.",
+              "Urea travels in blood to kidneys and is excreted in urine after filtration and processing."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Energy metabolism in cells",
+        "stem": "<p>A mitochondrial preparation consumes 15.0 µmol O₂ while producing 10.5 µmol CO₂. A separate photosynthesis experiment shows a plateau in carbon uptake at high light intensity. Both experiments include appropriate controls.</p>",
+        "topic": "Respiration; photosynthesis; limiting factors",
+        "parts": [
+          {
+            "q": "Calculate respiratory quotient and interpret the result cautiously.",
+            "m": 3,
+            "ms": [
+              "RQ = CO₂ produced / O₂ consumed.",
+              "RQ = 10.5/15.0 = 0.70.",
+              "This is consistent with substantial lipid oxidation under the stated conditions, rather than uniquely proving a pure substrate."
+            ],
+            "answer": 0.7
+          },
+          {
+            "q": "Explain why cyanide inhibition of the terminal electron-transfer step reduces mitochondrial ATP synthesis.",
+            "m": 3,
+            "ms": [
+              "Electron transfer to oxygen is inhibited.",
+              "Proton pumping and the maintained proton gradient decline.",
+              "ATP synthase consequently has less proton-motive driving force."
+            ]
+          },
+          {
+            "q": "Suggest how to test whether carbon dioxide supply limits photosynthesis at the high-light plateau.",
+            "m": 3,
+            "ms": [
+              "Increase carbon dioxide while keeping high light and temperature constant.",
+              "Measure comparable net carbon-uptake rates with repeats.",
+              "An increased rate supports carbon dioxide limitation in the original conditions."
+            ]
+          },
+          {
+            "q": "Explain how light-dependent reactions provide the materials needed for carbohydrate synthesis in the Calvin cycle.",
+            "m": 6,
+            "ms": [
+              "Light excites electrons in photosynthetic reaction centres.",
+              "Water photolysis replaces electrons and releases protons and oxygen.",
+              "Electron transport supports a proton gradient that drives ATP synthase.",
+              "Electrons and protons reduce NADP.",
+              "ATP and reduced NADP support reduction of GP to TP.",
+              "ATP also supports RuBP regeneration, while some TP contributes to carbohydrate synthesis."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nervous signalling and muscle contraction",
+        "stem": "<p>A nerve stimulates a skeletal-muscle fibre through a cholinergic neuromuscular junction. A drug blocks presynaptic voltage-gated calcium channels without directly affecting axonal sodium channels.</p>",
+        "topic": "Action potentials; synapses; muscle",
+        "parts": [
+          {
+            "q": "Explain generation and restoration of an axonal action potential.",
+            "m": 4,
+            "ms": [
+              "Threshold opens voltage-gated sodium channels.",
+              "Sodium entry depolarises the membrane.",
+              "Sodium-channel inactivation and potassium-channel opening cause repolarisation.",
+              "A refractory period limits immediate re-excitation."
+            ]
+          },
+          {
+            "q": "Predict the drug effect at the neuromuscular junction and explain its mechanism.",
+            "m": 4,
+            "ms": [
+              "Axonal impulses can still reach the terminal because sodium channels remain functional.",
+              "Less calcium enters the presynaptic terminal.",
+              "Vesicle fusion and acetylcholine release are reduced.",
+              "Postsynaptic excitation and muscle activation are reduced."
+            ]
+          },
+          {
+            "q": "Explain how calcium and ATP permit the sliding-filament cycle.",
+            "m": 4,
+            "ms": [
+              "Calcium binds troponin.",
+              "Tropomyosin moves to expose actin binding sites.",
+              "Myosin crossbridges bind and undergo power strokes.",
+              "ATP binding detaches myosin and hydrolysis re-energises the head for another cycle."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ocr-bio-set1-p2",
+    "title": "Set 1 · Biological diversity",
+    "subject": "Biology",
+    "paper": 2,
+    "tier": "A Level",
+    "minutes": 135,
+    "marks": 100,
+    "coverage": [
+      "Modules 1, 2, 4 and 6",
+      "15 multiple-choice marks and 85 structured marks"
+    ],
+    "questions": [
+      {
+        "title": "Section A · Multiple choice 1",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which molecules form most of a plasma-membrane bilayer?",
+            "m": 1,
+            "ms": [
+              "B: Phospholipids."
+            ],
+            "opts": [
+              "Triglycerides",
+              "Phospholipids",
+              "Glycogen",
+              "Cellulose"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 2",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which test gives a lilac or purple result with protein?",
+            "m": 1,
+            "ms": [
+              "B: Biuret."
+            ],
+            "opts": [
+              "Iodine",
+              "Biuret",
+              "Ethanol emulsion",
+              "A carbon dioxide absorbent"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 3",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which sequence is complementary mRNA to template DNA CCA? The template triplet is written 3′→5′ and the RNA triplet must be 5′→3′.",
+            "m": 1,
+            "ms": [
+              "A: GGU."
+            ],
+            "opts": [
+              "GGU",
+              "GGT",
+              "CCA",
+              "UUG"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 4",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which creates new alleles?",
+            "m": 1,
+            "ms": [
+              "C: Mutation."
+            ],
+            "opts": [
+              "Independent assortment alone",
+              "Fertilisation alone",
+              "Mutation",
+              "Random sampling alone"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 5",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which cell type secretes antibody?",
+            "m": 1,
+            "ms": [
+              "A: Plasma cell."
+            ],
+            "opts": [
+              "Plasma cell",
+              "Erythrocyte",
+              "Guard cell",
+              "Platelet"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 6",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which describes passive immunity?",
+            "m": 1,
+            "ms": [
+              "A: Antibodies are transferred to a recipient."
+            ],
+            "opts": [
+              "Antibodies are transferred to a recipient",
+              "The recipient always forms lasting memory",
+              "Only cytotoxic T cells are transferred",
+              "It requires meiosis"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 7",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which is a protoctist pathogen?",
+            "m": 1,
+            "ms": [
+              "A: Plasmodium."
+            ],
+            "opts": [
+              "Plasmodium",
+              "Influenza virus",
+              "A grass plant",
+              "A bacteriophage"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 8",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which two ranks form a binomial name?",
+            "m": 1,
+            "ms": [
+              "B: Genus and species."
+            ],
+            "opts": [
+              "Family and order",
+              "Genus and species",
+              "Domain and kingdom",
+              "Class and phylum"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 9",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Under Hardy–Weinberg, p = 0.8 and q = 0.2. What is 2pq?",
+            "m": 1,
+            "ms": [
+              "C: 0.32."
+            ],
+            "opts": [
+              "0.04",
+              "0.16",
+              "0.32",
+              "0.64"
+            ],
+            "a": 2
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 10",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "What does DNA ligase do?",
+            "m": 1,
+            "ms": [
+              "A: Joins DNA fragments."
+            ],
+            "opts": [
+              "Joins DNA fragments",
+              "Translates mRNA",
+              "Splits starch",
+              "Pumps protons in every cell"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 11",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "DNA migrates towards which electrode during electrophoresis?",
+            "m": 1,
+            "ms": [
+              "B: Positive."
+            ],
+            "opts": [
+              "Negative",
+              "Positive",
+              "Neither",
+              "Both equally"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 12",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which is an ex-situ conservation method?",
+            "m": 1,
+            "ms": [
+              "A: Seed banking."
+            ],
+            "opts": [
+              "Seed banking",
+              "Protecting a wild habitat only",
+              "A natural food web",
+              "Succession on bare rock"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 13",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which process converts ammonium to nitrite and nitrate?",
+            "m": 1,
+            "ms": [
+              "B: Nitrification."
+            ],
+            "opts": [
+              "Denitrification",
+              "Nitrification",
+              "Translation",
+              "Osmosis"
+            ],
+            "a": 1
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 14",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which is the correct productivity relationship?",
+            "m": 1,
+            "ms": [
+              "A: NPP = GPP − producer respiration."
+            ],
+            "opts": [
+              "NPP = GPP − producer respiration",
+              "GPP = NPP − respiration",
+              "NPP = respiration only",
+              "NPP always equals GPP"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "Section A · Multiple choice 15",
+        "topic": "Modules 1, 2, 4 and 6",
+        "stem": "<p>Select one answer.</p>",
+        "parts": [
+          {
+            "q": "Which test is appropriate for independent offspring category counts against fixed expected proportions?",
+            "m": 1,
+            "ms": [
+              "A: Chi-squared goodness-of-fit."
+            ],
+            "opts": [
+              "Chi-squared goodness-of-fit",
+              "A paired t test automatically",
+              "Calculating a median only",
+              "A magnification formula"
+            ],
+            "a": 0
+          }
+        ]
+      },
+      {
+        "title": "A new respiratory pathogen",
+        "stem": "<p>A bacterium spreads through respiratory droplets. A vaccine contains a purified bacterial surface antigen. In a laboratory comparison, susceptible bacteria decline strongly after antibiotic exposure, while a small resistant population survives and increases in frequency.</p>",
+        "topic": "Transmission; specific immunity; resistance",
+        "parts": [
+          {
+            "q": "Explain the response that produces specific circulating antibodies after vaccination.",
+            "m": 4,
+            "ms": [
+              "An appropriate B-cell receptor recognises the vaccine antigen.",
+              "Activation, usually with helper-T-cell support, leads to clonal expansion.",
+              "Some B-cell descendants become plasma cells.",
+              "Plasma cells secrete antibodies with binding sites complementary to the antigen."
+            ]
+          },
+          {
+            "q": "Compare active vaccination with passive antibody transfer.",
+            "m": 4,
+            "ms": [
+              "Vaccination stimulates the recipient’s own adaptive immune response.",
+              "It can establish memory populations and a faster secondary response.",
+              "Passive transfer supplies ready-made antibodies for immediate protection.",
+              "Passive antibodies are eventually lost and do not themselves establish the same antigen-specific memory response."
+            ]
+          },
+          {
+            "q": "Explain the increase in antibiotic resistance without describing a directed response to need.",
+            "m": 4,
+            "ms": [
+              "Mutation or acquired genes provide heritable resistance in some cells.",
+              "Antibiotic exposure inhibits susceptible cells more strongly.",
+              "Resistant cells survive and reproduce, passing on resistance.",
+              "Their relative frequency rises through selection."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Comparing grassland biodiversity",
+        "stem": "<p>Equal sampling effort records 40 individuals at each of two sites.</p><table><thead><tr><th>Species</th><th>Site A</th><th>Site B</th></tr></thead><tbody><tr><td>1</td><td>10</td><td>28</td></tr><tr><td>2</td><td>10</td><td>4</td></tr><tr><td>3</td><td>10</td><td>4</td></tr><tr><td>4</td><td>10</td><td>4</td></tr></tbody></table><p>Use D = 1 − Σ(n/N)².</p>",
+        "topic": "Biodiversity; sampling; fieldwork",
+        "parts": [
+          {
+            "q": "Calculate D for Site A.",
+            "m": 3,
+            "ms": [
+              "Each species has n/N = 10/40 = 0.25.",
+              "Σ(n/N)² = 4 × 0.25² = 0.25.",
+              "D = 1 − 0.25 = 0.75."
+            ],
+            "answer": 0.75
+          },
+          {
+            "q": "Calculate D for Site B and compare the communities.",
+            "m": 4,
+            "ms": [
+              "Σ(n/N)² = 0.7² + 3 × 0.1² = 0.52.",
+              "D = 0.48.",
+              "Species richness is equal at four species.",
+              "Site A has greater evenness and the higher diversity index under this definition."
+            ],
+            "answer": 0.48
+          },
+          {
+            "q": "Design a field investigation of how plant distribution changes with distance from a path.",
+            "m": 6,
+            "ms": [
+              "Use systematic quadrats along transects extending away from the path.",
+              "Use a consistent quadrat size and recording method.",
+              "Repeat transects at independently selected locations.",
+              "Measure distance and relevant abiotic factors such as light or soil moisture.",
+              "Control sampling season and effort, and identify species consistently.",
+              "Analyse trends with variation and avoid concluding causation from correlation alone."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "A two-locus inheritance model",
+        "stem": "<p>A plant’s pigment pathway produces colour only when at least one functional allele is present at both unlinked loci A and B. An AaBb × AaBb cross produces 190 coloured and 130 colourless offspring. The model predicts a 9:7 phenotypic ratio. Use χ² = Σ[(O − E)²/E]. The 5% critical value at one degree of freedom is 3.84.</p>",
+        "topic": "Epistasis; chi-squared; population genetics",
+        "parts": [
+          {
+            "q": "Explain why the expected phenotypic ratio is 9:7 rather than 9:3:3:1.",
+            "m": 3,
+            "ms": [
+              "Both A and B function are required for colour.",
+              "Nine sixteenths are A_B_ and are coloured.",
+              "The remaining aaB_, A_bb and aabb groups together form seven sixteenths and are colourless."
+            ]
+          },
+          {
+            "q": "Calculate expected counts, calculate χ² and state the conclusion.",
+            "m": 4,
+            "ms": [
+              "Expected counts are 180 coloured and 140 colourless.",
+              "χ² = 100/180 + 100/140 ≈ 1.27.",
+              "1.27 is below the critical value 3.84.",
+              "Do not reject the 9:7 model’s null hypothesis; the data are consistent with it but do not prove it."
+            ],
+            "answer": 1.27
+          },
+          {
+            "q": "In a separate large population, a recessive phenotype frequency is 0.16. Use Hardy–Weinberg to calculate heterozygote frequency and state two assumptions.",
+            "m": 5,
+            "ms": [
+              "q² = 0.16, so q = 0.4.",
+              "p = 1 − 0.4 = 0.6.",
+              "Heterozygote frequency = 2pq = 0.48.",
+              "Mating is random and the population is sufficiently large to minimise drift.",
+              "Selection, migration and mutation do not materially alter the locus during the modelled interval."
+            ],
+            "answer": 0.48
+          }
+        ]
+      },
+      {
+        "title": "Investigating a candidate gene",
+        "stem": "<p>A laboratory amplifies a 600-base-pair target, separates products by electrophoresis and places a human coding sequence in a bacterial expression vector. Starting with 12 target molecules, assume ideal doubling for the calculation only.</p>",
+        "topic": "PCR; electrophoresis; recombinant DNA",
+        "parts": [
+          {
+            "q": "Calculate target copies after six ideal PCR cycles and give one reason real yields can differ.",
+            "m": 3,
+            "ms": [
+              "Copies = 12 × 2⁶.",
+              "The predicted count is 768.",
+              "Real efficiency can be reduced by limited reagents, incomplete amplification or inhibition."
+            ],
+            "answer": 768
+          },
+          {
+            "q": "Explain how a gel distinguishes 300-base-pair and 600-base-pair DNA fragments.",
+            "m": 4,
+            "ms": [
+              "DNA has a net negative charge from its phosphate backbone.",
+              "It moves towards the positive electrode.",
+              "Smaller fragments pass through the gel matrix more readily and normally travel farther.",
+              "A size marker allows comparison under the same running conditions."
+            ]
+          },
+          {
+            "q": "Describe how to obtain and express an intron-free human coding sequence in bacteria.",
+            "m": 6,
+            "ms": [
+              "Obtain mature mRNA from cells expressing the target gene.",
+              "Use reverse transcriptase to produce cDNA.",
+              "Join a suitable coding sequence into an expression vector using an appropriate DNA-assembly method.",
+              "Include a bacterial-compatible promoter and replication features.",
+              "Introduce the vector into host cells and select or screen successful clones.",
+              "Confirm the desired protein is expressed and functional rather than relying only on marker survival."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "An industrial enzyme process",
+        "stem": "<p>A company compares free and immobilised lactase. Both treatments contain comparable enzyme activity under a standard assay. Product collected from a continuous immobilised-enzyme column initially rises, then falls after prolonged use.</p>",
+        "topic": "Enzymes; biotechnology; microorganisms",
+        "parts": [
+          {
+            "q": "Give two benefits and one limitation of immobilising lactase.",
+            "m": 3,
+            "ms": [
+              "The enzyme can be retained and reused.",
+              "It is easier to separate enzyme from product.",
+              "Diffusion into the support or altered activity can limit the reaction rate."
+            ]
+          },
+          {
+            "q": "Suggest three factors to investigate when the column output declines.",
+            "m": 3,
+            "ms": [
+              "Check enzyme stability or loss of functional activity over time.",
+              "Check substrate supply, flow rate and diffusion through the support.",
+              "Check contamination, pH and temperature against the intended conditions."
+            ]
+          },
+          {
+            "q": "Explain how an aerobic microbial culture used to produce the enzyme should be controlled.",
+            "m": 6,
+            "ms": [
+              "Maintain aseptic equipment and nutrient supply to reduce contamination.",
+              "Regulate temperature to support growth and enzyme function.",
+              "Control pH because cellular and enzyme activity depend on it.",
+              "Supply oxygen and mix to distribute it throughout the culture.",
+              "Monitor growth and harvest at a stage appropriate to the desired product.",
+              "Use independent quality checks for product identity, purity and activity."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Production and nutrient cycling",
+        "stem": "<p>A wetland has GPP 4200 kJ m⁻² yr⁻¹ and producer respiration 1800 kJ m⁻² yr⁻¹. Herbivore production is 288 kJ m⁻² yr⁻¹. Waterlogged patches have less oxygen than well-aerated soil.</p>",
+        "topic": "Productivity; energy transfer; nitrogen cycle",
+        "parts": [
+          {
+            "q": "Calculate NPP and the efficiency of transfer from producer NPP to herbivore production.",
+            "m": 3,
+            "ms": [
+              "NPP = 4200 − 1800 = 2400 kJ m⁻² yr⁻¹.",
+              "Efficiency = 288/2400 × 100.",
+              "The efficiency is 12%."
+            ]
+          },
+          {
+            "q": "Explain why producer NPP exceeds herbivore production.",
+            "m": 4,
+            "ms": [
+              "Some producer biomass is not eaten.",
+              "Some ingested material is not digested or absorbed and is egested.",
+              "Some absorbed energy is used in respiration and dissipated.",
+              "Other losses, such as excretion, leave less material and energy for herbivore growth."
+            ]
+          },
+          {
+            "q": "Explain how decomposition and low oxygen conditions can affect nitrogen availability.",
+            "m": 4,
+            "ms": [
+              "Decomposition releases ammonium from organic nitrogen through ammonification.",
+              "Nitrification converts ammonium to nitrite and nitrate where conditions support the process.",
+              "Low oxygen can favour denitrification that converts nitrate to nitrogen gas.",
+              "This can reduce nitrate available for plant uptake."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Managing a fragmented species",
+        "stem": "<p>A mammal survives in three small isolated woodland populations. Managers propose habitat corridors, captive breeding and later reintroduction. A camera survey suggests a population increase after a corridor opens, but food availability also rises during the same period.</p>",
+        "topic": "Conservation; drift; evidence evaluation",
+        "parts": [
+          {
+            "q": "Explain why small isolated populations can lose genetic diversity.",
+            "m": 3,
+            "ms": [
+              "Drift can remove alleles by chance in small populations.",
+              "Restricted gene flow limits replacement of lost alleles.",
+              "Inbreeding can increase homozygosity and expose harmful recessive alleles."
+            ]
+          },
+          {
+            "q": "Explain why the camera survey alone cannot show that the corridor caused the increase.",
+            "m": 3,
+            "ms": [
+              "Food availability is a confounding variable that may influence survival or reproduction.",
+              "Detection probability or sampling effort may also change apparent abundance.",
+              "A replicated controlled or carefully matched before–after comparison would provide stronger evidence."
+            ]
+          },
+          {
+            "q": "Evaluate the combined corridor and captive-breeding strategy.",
+            "m": 6,
+            "ms": [
+              "Corridors can support movement, gene flow and recolonisation.",
+              "Habitat protection addresses threats in the natural ecological context.",
+              "Captive breeding can provide an insurance population or animals for release.",
+              "Breeding should manage relatedness and retain genetic diversity.",
+              "Corridors and releases may also spread disease or create welfare and ecological problems.",
+              "Success needs suitable habitat, threat reduction and long-term monitoring against explicit recovery goals."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ocr-bio-set1-p3",
+    "title": "Set 1 · Unified biology",
+    "subject": "Biology",
+    "paper": 3,
+    "tier": "A Level",
+    "minutes": 90,
+    "marks": 70,
+    "coverage": [
+      "Synoptic assessment across Modules 1–6",
+      "Practical design, t-test calculation, ecology and molecular biology"
+    ],
+    "questions": [
+      {
+        "title": "A plant enzyme under salt stress",
+        "stem": "<p>Researchers measure initial enzyme activity from five independently sampled control plants and five salt-treated plants. Mean activities are 3.0 and 2.0 µmol min⁻¹, with sample SD 0.50 µmol min⁻¹ in both groups. Assume normality and equal population variance are reasonable. Use t = |x̄₁ − x̄₂| / √(s₁²/n₁ + s₂²/n₂). Use 8 degrees of freedom and a two-tailed 5% critical value of 2.306. One control extract produces 0.9 µmol product in its first 18 seconds.</p>",
+        "topic": "Enzymes; protein structure; experimental design; statistics",
+        "parts": [
+          {
+            "q": "Calculate the extract’s mean rate over 18 seconds in µmol min⁻¹.",
+            "m": 3,
+            "ms": [
+              "Convert 18 s to 0.30 min.",
+              "Calculate 0.9/0.30.",
+              "The rate is 3.0 µmol min⁻¹."
+            ],
+            "answer": 3,
+            "unit": "µmol min⁻¹"
+          },
+          {
+            "q": "Explain why altered enzyme tertiary structure may reduce activity.",
+            "m": 3,
+            "ms": [
+              "Changes in R-group interactions can alter the folded shape.",
+              "The active-site shape or chemical environment may change.",
+              "Substrate binding or catalysis can become less effective."
+            ]
+          },
+          {
+            "q": "Calculate t and interpret the test.",
+            "m": 4,
+            "ms": [
+              "The denominator is √(0.25/5 + 0.25/5) = √0.10 ≈ 0.316.",
+              "t = 1/0.316 ≈ 3.16.",
+              "3.16 exceeds 2.306, so reject the null of equal population mean activities at the 5% level.",
+              "Evidence supports a difference under the assumptions but does not prove its molecular cause."
+            ],
+            "answer": 3.16
+          },
+          {
+            "q": "Describe four design features needed to attribute the difference to salt rather than confounding.",
+            "m": 4,
+            "ms": [
+              "Randomly allocate comparable plants to treatment and control.",
+              "Keep growth conditions, age and sampled tissue comparable apart from salt.",
+              "Standardise extraction, tissue-mass basis and assay pH and temperature.",
+              "Use independent biological replicates rather than only repeat readings of one extract."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Flooding, drought and carbon gain",
+        "stem": "<p>Two woodland areas alternate between waterlogging and dry conditions. In a chamber, illuminated shoots show net oxygen production of 8.0 cm³ h⁻¹; in darkness, equal tissue consumes 2.0 cm³ O₂ h⁻¹. Assume for calculation that respiration in light equals respiration in darkness. During drought, stomatal aperture decreases.</p>",
+        "topic": "Photosynthesis; plant transport; ecosystems",
+        "parts": [
+          {
+            "q": "Explain the Calvin-cycle steps by which carbon dioxide contributes to organic molecules.",
+            "m": 3,
+            "ms": [
+              "Rubisco fixes carbon dioxide to RuBP, producing GP after an unstable intermediate splits.",
+              "ATP and reduced NADP support conversion of GP to TP.",
+              "Some TP contributes to organic synthesis while most regenerates RuBP using ATP."
+            ]
+          },
+          {
+            "q": "Estimate gross oxygen production in light and state a limitation.",
+            "m": 3,
+            "ms": [
+              "Gross production = net production + respiratory uptake.",
+              "The estimate is 8.0 + 2.0 = 10.0 cm³ h⁻¹.",
+              "It depends on respiration being unchanged between light and darkness."
+            ],
+            "answer": 10,
+            "unit": "cm³ h⁻¹"
+          },
+          {
+            "q": "Explain how stomatal closure affects water loss and can restrict carbon gain.",
+            "m": 4,
+            "ms": [
+              "Closure increases resistance to water-vapour diffusion and reduces transpiration.",
+              "It reduces evaporative demand driving xylem tension.",
+              "It also restricts carbon dioxide entry.",
+              "Reduced carbon supply can limit carbon fixation and carbohydrate production."
+            ]
+          },
+          {
+            "q": "Explain how waterlogging may alter nitrogen supply and community composition.",
+            "m": 4,
+            "ms": [
+              "Low oxygen can limit aerobic root and microbial processes.",
+              "Suitable low-oxygen conditions can favour denitrification.",
+              "Conversion of nitrate to nitrogen gas reduces available nitrate.",
+              "Species differ in tolerance and resource use, changing relative survival or growth."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Producing an antigen for a vaccine",
+        "stem": "<p>A laboratory identifies a viral surface-protein coding sequence and expresses an appropriate version in a host-cell system. The purified protein is investigated as a vaccine antigen. A later viral population has an altered surface-protein sequence.</p>",
+        "topic": "Nucleic acids; biotechnology; immunity; evolution",
+        "parts": [
+          {
+            "q": "Explain how vaccination can produce a faster response after later exposure.",
+            "m": 4,
+            "ms": [
+              "Specific lymphocytes recognise antigen and are activated.",
+              "Clonal expansion produces effector cells.",
+              "Memory lymphocytes persist.",
+              "Re-exposure generates a faster and larger antigen-specific response."
+            ]
+          },
+          {
+            "q": "Explain three requirements for PCR amplification.",
+            "m": 3,
+            "ms": [
+              "Primers anneal to sequences flanking the target.",
+              "A thermostable DNA polymerase extends primers.",
+              "Thermal cycling separates strands, permits annealing and supports extension with free nucleotides."
+            ]
+          },
+          {
+            "q": "Explain four issues in expressing and purifying a functional antigen.",
+            "m": 4,
+            "ms": [
+              "The coding sequence and regulatory features must suit the host.",
+              "The protein must fold appropriately and receive necessary modifications.",
+              "Successful constructs must be selected or screened and expression verified.",
+              "Quality checks must assess identity, contamination and retained antigenic function."
+            ]
+          },
+          {
+            "q": "Explain how immune selection can increase a variant with altered antibody recognition.",
+            "m": 3,
+            "ms": [
+              "Mutation supplies heritable sequence variation.",
+              "Less effectively recognised variants may reproduce or transmit more successfully.",
+              "Their frequency can increase without mutations being directed by the need for immune evasion."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "An inhibitor affects an active animal",
+        "stem": "<p>A compound inhibits the terminal mitochondrial electron-transfer step without directly blocking ion channels or myosin. Researchers investigate a repeatedly stimulated skeletal muscle and the systems supplying it.</p>",
+        "topic": "Respiration; neurones; muscle; circulation",
+        "parts": [
+          {
+            "q": "Explain why the inhibitor reduces oxidative ATP synthesis.",
+            "m": 5,
+            "ms": [
+              "Oxygen cannot accept electrons normally at the terminal step.",
+              "Carriers remain reduced and normal electron flow is restricted.",
+              "Electron-transport-linked proton pumping declines.",
+              "The proton gradient is not adequately maintained.",
+              "ATP synthase has less proton-motive driving force."
+            ]
+          },
+          {
+            "q": "Explain why prolonged ATP shortage impairs neuronal signalling despite unblocked channels.",
+            "m": 4,
+            "ms": [
+              "The sodium–potassium pump requires ATP.",
+              "Reduced pumping allows sodium and potassium gradients to deteriorate.",
+              "Resting potential and the driving forces for ionic currents are affected.",
+              "Reliable impulse generation and recovery can fail."
+            ]
+          },
+          {
+            "q": "Explain ATP requirements in muscle and why glycolysis may temporarily continue.",
+            "m": 4,
+            "ms": [
+              "ATP binding enables myosin detachment and further cycling.",
+              "ATP supports calcium pumping during relaxation.",
+              "Reduction of pyruvate to lactate regenerates NAD.",
+              "Glycolysis can then make a small ATP supply by substrate-level phosphorylation, insufficient for sustained normal high output."
+            ]
+          },
+          {
+            "q": "Explain why increased cardiac output cannot fully overcome the inhibitor.",
+            "m": 3,
+            "ms": [
+              "Higher output can increase oxygen delivery.",
+              "The inhibited terminal pathway cannot use that oxygen normally.",
+              "The limitation is cellular utilisation, so supply alone does not restore oxidative phosphorylation."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "A threatened butterfly population",
+        "stem": "<p>Investigators mark and release 40 butterflies. After mixing, they capture 50, including 10 marked individuals. A separate large reference population has a recessive phenotype frequency of 0.04. The threatened population becomes fragmented into small isolated groups.</p>",
+        "topic": "Sampling; Hardy–Weinberg; drift; conservation",
+        "parts": [
+          {
+            "q": "Estimate population size and state three assumptions.",
+            "m": 4,
+            "ms": [
+              "Population estimate = 40 × 50 / 10 = 200.",
+              "Marks remain identifiable without altering survival or capture probability.",
+              "Marked individuals mix randomly.",
+              "The population is sufficiently closed over the interval."
+            ],
+            "answer": 200,
+            "unit": "butterflies"
+          },
+          {
+            "q": "Calculate reference-population heterozygote frequency under Hardy–Weinberg.",
+            "m": 3,
+            "ms": [
+              "q = √0.04 = 0.2.",
+              "p = 0.8.",
+              "2pq = 2 × 0.8 × 0.2 = 0.32."
+            ],
+            "answer": 0.32
+          },
+          {
+            "q": "Explain fragmentation effects on diversity and evaluate one management response.",
+            "m": 5,
+            "ms": [
+              "Small groups undergo stronger chance changes through drift.",
+              "Isolation reduces gene flow.",
+              "Inbreeding increases homozygosity and can expose harmful recessive alleles.",
+              "Corridors or carefully managed movement can support gene flow.",
+              "Monitor habitat, disease and genetic outcomes rather than assuming movement is always beneficial."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
