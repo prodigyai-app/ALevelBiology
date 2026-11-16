@@ -122,8 +122,8 @@ window.InvestigationLab = (() => {
     const on=mode!=='dark';
     d=beaker(320,400,170,190,.8,'#a9d3e3')+`<path d="M320 392V300M320 340l-26-22M320 330l28-26M320 360l-30-14M320 314l22-22" stroke="#3f7d2c" stroke-width="4" stroke-linecap="round"/>`+[[294,318],[348,304],[290,346],[342,292],[300,300]].map(([a,b])=>`<ellipse cx="${a}" cy="${b}" rx="8" ry="4" fill="#5d9c45"/>`).join('');
     if(on)for(let i=0;i<6;i++)d+=`<circle cx="${330+i*6}" cy="${290-i*14}" r="3" fill="#fff" opacity=".7"/>`;
-    d+=C.stand(470,402,90)+C.clamp(470,150,380,20)+`<rect x="372" y="140" width="16" height="200" rx="7" fill="#1d2226"/><rect x="374" y="320" width="12" height="26" fill="#9aa"/><path d="M380 140C380 90 470 70 560 120" fill="none" stroke="#111" stroke-width="5"/>`;
-    d+=`${C.shadow(640,402,90,7)}<rect x="560" y="300" width="170" height="100" rx="10" fill="#2a3034" stroke="#000"/><rect x="574" y="314" width="142" height="48" rx="4" fill="url(#g-lcd)"/><text x="645" y="333" text-anchor="middle" font-family="Arial" font-size="8" fill="#4b553e">DISSOLVED O₂ / mg dm⁻³</text><text x="645" y="354" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="17" font-weight="600" fill="#1f2a18">${y==null?'--.--':(+y).toFixed(2)}</text>${T(645,384,'DATA LOGGER',{size:8,anchor:'middle',fill:'#9aa3a9'})}`;
+    d+=C.stand(470,402,90)+C.clamp(470,150,380,20)+`<rect x="372" y="140" width="16" height="200" rx="7" fill="#1d2226"/><rect x="374" y="320" width="12" height="26" fill="#9aa"/>`;
+    d+=`${C.shadow(640,402,90,7)}<rect x="560" y="300" width="170" height="100" rx="10" fill="#2a3034" stroke="#000"/><rect x="574" y="314" width="142" height="48" rx="4" fill="url(#g-lcd)"/><text x="645" y="333" text-anchor="middle" font-family="Arial" font-size="8" fill="#4b553e">DISSOLVED O₂ / mg dm⁻³</text><text x="645" y="354" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="17" font-weight="600" fill="#1f2a18">${y==null?'--.--':(+y).toFixed(2)}</text>${T(645,384,'DATA LOGGER',{size:8,anchor:'middle',fill:'#9aa3a9'})}<rect x="700" y="292" width="14" height="10" rx="2" fill="#15191b"/>`+C.lead('M380 142 C 380 70, 707 62, 707 294','black');
     d+=lamp(130,400,on,-1);break;}
    case 'colorimeter':{
     const vals=c.values||[x];
@@ -143,7 +143,8 @@ window.InvestigationLab = (() => {
     for(let i=0;i<4;i++)d+=`<rect x="${226+i*56}" y="332" width="30" height="3" fill="#33405e"/>`;
     for(const v of [100,300,1000,3000,10000])d+=`<rect x="226" y="${r1(bandY(v))}" width="30" height="2.5" fill="#2b3f8d"/>`;
     d+=`<rect x="282" y="${r1(bandY(x))}" width="30" height="2.8" fill="#2b3f8d"/>`;
-    d+=`<rect x="128" y="330" width="10" height="24" fill="#111"/><rect x="522" y="330" width="10" height="24" fill="#b0261c"/>`+C.psu(640,280,`${uid}-psu`,{max:150,label:'POWER SUPPLY'})+`<path d="M133 330C140 250 600 230 690 330" fill="none" stroke="#111" stroke-width="3"/><path d="M527 330C540 270 690 260 740 330" fill="none" stroke="#c0392b" stroke-width="3"/>`;
+    d+=`<rect x="128" y="330" width="10" height="24" fill="#111"/><rect x="522" y="330" width="10" height="24" fill="#b0261c"/>`+C.psu(640,280,`${uid}-psu`,{max:150,label:'POWER SUPPLY'})+``+(()=>{ /* leads to the supply terminals: negative electrode (wells end) to black, positive to red */ const t=C.psuTerm(640,280);
+      return C.lead(`M133 332 C 140 230, ${t.neg[0]} 214, ${t.neg[0]} ${t.neg[1]}`,'black')+C.lead(`M527 332 C 536 268, ${t.pos[0]} 262, ${t.pos[0]} ${t.pos[1]}`,'red')+C.plug(t.neg[0],t.neg[1],'black')+C.plug(t.pos[0],t.pos[1],'red'); })();
     d+=T(226,318,'ladder',{size:10})+T(282,318,'sample',{size:10})+T(120,440,'Agarose gel in buffer: DNA (negative) moves towards the positive electrode',{size:11,fill:'#c9d2d5'});
     break;}
    case 'permeability': case 'decay': case 'enzyme':{
